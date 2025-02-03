@@ -1,16 +1,27 @@
-## Hi there 👋
+# Hi, I'm Muhammad Obaid Ullah 👋
 
-<!--
-**Obaid03/Obaid03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 👨‍🎓 About Me
+Hello! I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Science from FAST University. I am passionate about programming, game development, and web development.
 
-Here are some ideas to get you started:
+- 🎓 Bachelor of Science (BS) in Computer Science
+- 🌱 Web Development: HTML, CSS
+- 💬 Ask me about anything related to programming, web development, and tech
+- 📫 How to reach me: [your email]
+- 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/yourlinkedinprofile/)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🛠️ Languages & Tools
+
+- **Languages**: C, Python
+- **Technologies**: Basic Web Development (HTML, CSS), OOP
+- **Tools**: Git, Visual Studio Code, MS Office
+- **Concepts**: Object-Oriented Programming (OOP)
+- **Projects**: Game Development in C (Rocket Shooting Game)
+
+---
+
+## 📈 GitHub Stats
+
+![Obaid Ullah's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YourGitHubUsername&show_icons=true&hide_title=true&count_private=true&hide=prs)
+
