@@ -1,19 +1,19 @@
 # Hi, I'm Muhammad Obaid Ullah 👋
 
 ## 👨‍🎓 About Me
-Hello! I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Science from FAST University. I am passionate about programming, game development, and web development.
+I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Science from FAST University. I am passionate about programming, game development, and web development.
 
 - 🎓 Bachelor of Science (BS) in Computer Science
 - 🌱 Web Development: HTML, CSS
 - 💬 Ask me about anything related to programming, web development, and tech
-- 📫 How to reach me: [your email]
-- 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/yourlinkedinprofile/)
+- 📫 How to reach me: [muhammadobaid103@gmail.com]
+- 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)
 
 ---
 
 ## 🛠️ Languages & Tools
 
-- **Languages**: C, Python
+- **Languages**: C, C++, Python
 - **Technologies**: Basic Web Development (HTML, CSS), OOP
 - **Tools**: Git, Visual Studio Code, MS Office
 - **Concepts**: Object-Oriented Programming (OOP)
