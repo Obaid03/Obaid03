@@ -5,7 +5,10 @@ I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Sc
 I am passionate about programming, game development, and web development.  
 
 <!--![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&color=ff0050&style=flat)-->  
-![Profile Views](https://shields.io/badge/dynamic/json?color=ff0050&label=Profile%20Views&query=value&url=https://api.countapi.xyz/hit/Obaid03/visits)
+<!--![Profile Views](https://shields.io/badge/dynamic/json?color=ff0050&label=Profile%20Views&query=value&url=https://api.countapi.xyz/hit/Obaid03/visits)-->
+
+![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&label=Profile%20Views&color=ff0050&style=flat)
+
 
 - 🎓 **Bachelor of Science (BS) in Computer Science**  
 - 💬 Ask me about anything related to **programming, web development, and tech**  
