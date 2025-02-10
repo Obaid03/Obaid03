@@ -44,7 +44,7 @@ I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Sc
 ## 🚀 Featured Projects
 Here are some of my projects:
 
-- 🎮 **[Rocket Shooting Game](https://github.com/Obaid03/Rocket-Shooting-Game)** - A simple 2D game built in C.
+- 🎮 **[Rocket Shooting Game](https://github.com/Obaid03/PF_RocketGame)** - A simple 2D game built in C.
 
 ## 📊 GitHub Activity Graph
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=radical)
