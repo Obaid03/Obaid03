@@ -56,9 +56,7 @@ I am passionate about programming, game development, and web development.
 ## 🚀 Featured Projects
 Here are some of my projects:
 
-- 🎮 **[Rocket Shooting Game](https://github.com/Obaid03/PF_RocketGame)**  
-  ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=white)
-
+- 🎮 **[Rocket Shooting Game](https://github.com/Obaid03/PF_RocketGame)** ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=white)
 
 
 ## 📊 GitHub Activity Graph
