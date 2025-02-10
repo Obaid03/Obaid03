@@ -54,6 +54,9 @@ I am passionate about programming, game development, and web development.
 ## 🏆 GitHub Achievements
 
 ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=Obaid03&theme=radical)
+![GitHub Contributions](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?color=blue&label=Total%20Contributions&query=totalContributions&url=https://api.github.com/users/Obaid03)
+![GitHub Followers](https://img.shields.io/github/followers/Obaid03?label=Followers&style=flat&color=red)
+
 
 
 
