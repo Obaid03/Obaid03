@@ -22,8 +22,6 @@ I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Sc
 
 ## 📈 GitHub Stats
 
-![Obaid Ullah's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&hide_title=true&count_private=true&hide=prs)
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
 
 
