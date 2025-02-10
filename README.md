@@ -41,10 +41,7 @@ I am passionate about programming, game development, and web development.
 
 ## 🔥 GitHub Streak
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Obaid03&theme=radical)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Obaid03&theme=radical&date_format=%5BY%20%5DM%20j&cache_seconds=1800)
-
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Obaid03&theme=radical&cache_seconds=1800)
 
 ## 🚀 Top Languages
 
