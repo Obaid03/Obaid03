@@ -33,7 +33,7 @@ I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Sc
 
 <!-- Most Used Languages -->
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=radical&card_width=450)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=radical&card_width=490)
 
 
 
