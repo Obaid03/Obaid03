@@ -7,9 +7,6 @@ I am passionate about programming, game development, and web development.
 <!--![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&color=ff0050&style=flat)-->  
 <!--![Profile Views](https://shields.io/badge/dynamic/json?color=ff0050&label=Profile%20Views&query=value&url=https://api.countapi.xyz/hit/Obaid03/visits)-->
 
-![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&label=Profile%20Views&color=ff0050&style=flat)
-
-
 - 🎓 **Bachelor of Science (BS) in Computer Science**  
 - 💬 Ask me about anything related to **programming, web development, and tech**  
 - 📫 **How to reach me:** muhammadobaid103@gmail.com  
@@ -53,6 +50,7 @@ I am passionate about programming, game development, and web development.
 ### 👥 GitHub Profile Stats  
 ![GitHub Followers](https://img.shields.io/github/followers/Obaid03?label=Followers&style=flat&color=red)  
 ![GitHub Contributions](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?color=blue&label=Total%20Contributions&query=totalContributions&url=https://api.github.com/users/Obaid03)
+![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&label=Profile%20Views&color=ff0050&style=flat)
 
 
 ## 🏆 GitHub Achievements
