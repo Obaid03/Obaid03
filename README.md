@@ -30,7 +30,7 @@ I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Sc
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Obaid03&theme=radical)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=Obaid03&theme=radical&hide_border=false)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Obaid03&theme=radical&hide_border=false)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=radical)
 
