@@ -24,16 +24,16 @@ I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Sc
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=radical&card_width=497)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=radical&card_width=497&custom_title=GITHUB%20STATS)
+<!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=radical&card_width=497&custom_title=GITHUB%20STATS)-->
 
 <!-- GitHub Streak -->
-
-## 📈 GitHub Streak
+## 🔥 GitHub Streak
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Obaid03&theme=radical)
 
 
 <!-- Most Used Languages -->
+## 🚀 Top Languages
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=radical&card_width=497)
 
