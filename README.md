@@ -43,6 +43,19 @@ I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Sc
 ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white)
 
+## 🚀 Featured Projects
+Here are some of my projects:
+
+- 🎮 **[Rocket Shooting Game](https://github.com/Obaid03/Rocket-Shooting-Game)** - A simple 2D game built in C.
+- 🌍 **[Environmental Issues in Karachi](https://github.com/Obaid03/Environmental-Issues)** - A research-based article on Karachi’s environmental challenges.
+
+## 📊 GitHub Activity Graph
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=radical)
+
+## 👀 Profile Views
+![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&color=blue)
+
+
 
 
 
