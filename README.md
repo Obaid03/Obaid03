@@ -56,12 +56,6 @@ Here are some of my projects:
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=radical" width="497px"/>
 </p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=radical&card_width=497" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Obaid03&theme=radical" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=radical&card_width=497" />
-</div>
-
 <div align="left">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=radical" width="497px"/>
 </div>
