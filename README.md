@@ -28,6 +28,19 @@ I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Sc
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&theme=tokyonight&count_private=true&hide_title=false&card_width=500)
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&theme=dark&count_private=true&hide_title=false&card_width=500)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&theme=gruvbox&count_private=true&hide_title=false&card_width=500)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&theme=onedark&count_private=true&hide_title=false&card_width=500)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&theme=dracula&count_private=true&hide_title=false&card_width=500)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&theme=merko&count_private=true&hide_title=false&card_width=500)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&theme=solarized-light&count_private=true&hide_title=false&card_width=500)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&theme=highcontrast&count_private=true&hide_title=false&card_width=500)
 
 ## 📈 GitHub Streak
 
