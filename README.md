@@ -57,6 +57,10 @@ Here are some of my projects:
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=github-dark" width="497px"/>
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=radical" width="497px"/>
+</p>
+
 
 ## 👀 Profile Views
 ![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&color=blue)
