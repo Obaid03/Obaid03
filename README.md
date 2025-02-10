@@ -58,13 +58,3 @@ Here are some of my projects:
 <div align="left">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=github-dark" width="497px"/>
 </div>
-
-
-
-
-
-
-
-
-
-
