@@ -8,8 +8,6 @@ I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Sc
 - 📫 How to reach me: muhammadobaid103@gmail.com
 - 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)
 
----
-
 ## 🛠️ Tech Stack & Tools
 
 ### **Languages**
@@ -25,10 +23,6 @@ I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Sc
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 ![MS Office](https://img.shields.io/badge/-MS%20Office-D83B01?style=flat&logo=microsoft-office&logoColor=white)
 
-### **Concepts**
-- Object-Oriented Programming (OOP)
-
----
 <!-- GitHub Stats -->
 ## 📈 GitHub Stats
 
