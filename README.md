@@ -48,16 +48,14 @@ Here are some of my projects:
 
 ## 📊 GitHub Activity Graph
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=github-dark" width="497px"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=radical" width="497px"/>
-</p>
-
 <div align="left">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=radical" width="497px"/>
+</div>
+<div align="left">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=tokyo-night" width="497px"/>
+</div>
+<div align="left">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=github-dark" width="497px"/>
 </div>
 
 
