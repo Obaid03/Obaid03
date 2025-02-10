@@ -49,15 +49,14 @@ I am passionate about programming, game development, and web development.
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=radical&card_width=497)
 
+### 👥 GitHub Profile Stats  
+![GitHub Followers](https://img.shields.io/github/followers/Obaid03?label=Followers&style=flat&color=red)  
+![GitHub Contributions](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?color=blue&label=Total%20Contributions&query=totalContributions&url=https://api.github.com/users/Obaid03)
 
 
 ## 🏆 GitHub Achievements
 
 ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=Obaid03&theme=radical)
-![GitHub Contributions](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?color=blue&label=Total%20Contributions&query=totalContributions&url=https://api.github.com/users/Obaid03)
-![GitHub Followers](https://img.shields.io/github/followers/Obaid03?label=Followers&style=flat&color=red)
-
-
 
 
 ## 🚀 Featured Projects
