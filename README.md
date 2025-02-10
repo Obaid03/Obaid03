@@ -1,12 +1,16 @@
 # Hi, I'm Muhammad Obaid Ullah 👋
 
-## 👨‍🎓 About Me
-I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Science from FAST University. I am passionate about programming, game development, and web development.
+## 👨‍🎓 About Me  
+I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Science from FAST University.  
+I am passionate about programming, game development, and web development.  
 
-- 🎓 Bachelor of Science (BS) in Computer Science
-- 💬 Ask me about anything related to programming, web development, and tech
-- 📫 How to reach me: muhammadobaid103@gmail.com
-- 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)
+![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&color=ff0050&style=flat)  
+
+- 🎓 Bachelor of Science (BS) in Computer Science  
+- 💬 Ask me about anything related to programming, web development, and tech  
+- 📫 How to reach me: muhammadobaid103@gmail.com  
+- 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)  
+
 
 ## 🛠️ Tech Stack & Tools
 
@@ -48,20 +52,12 @@ Here are some of my projects:
 
 ## 📊 GitHub Activity Graph
 
-<div align="left">
+<!--<div align="left">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=radical" width="497px"/>
-</div>
-<div align="left">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=tokyo-night" width="497px"/>
-</div>
+</div>-->
 <div align="left">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=github-dark" width="497px"/>
 </div>
-
-
-
-## 👀 Profile Views
-![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&color=blue)
 
 
 
