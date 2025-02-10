@@ -49,6 +49,15 @@ Here are some of my projects:
 ## 📊 GitHub Activity Graph
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=radical)
 
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=github-dark)
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=tokyo-night)
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=github-dark" width="497px"/>
+</p>
+
+
 ## 👀 Profile Views
 ![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&color=blue)
 
