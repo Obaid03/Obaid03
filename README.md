@@ -36,8 +36,9 @@ I am passionate about programming, game development, and web development.
 
 
 ## 📈 GitHub Stats
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=radical&card_width=497)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=github-dark&card_width=497)
+
 
 ## 🔥 GitHub Streak
 
