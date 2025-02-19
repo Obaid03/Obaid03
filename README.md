@@ -9,13 +9,9 @@
 I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Science from FAST University.  
 I am passionate about programming, game development, and web development.  
 
-<img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="250">
-
 - 🎓 **Bachelor of Science (BS) in Computer Science**  
-- 💬 Ask me about anything related to **programming, web development, and tech**  
-- 📫 **How to reach me:** muhammadobaid103@gmail.com  
-- 🔗 **Connect with me on [LinkedIn](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)**
-  
+- 💬 Ask me about anything related to **programming, web development, and tech**
+- <img src="https://media.giphy.com/media/hqU2KkjW5bE2v2Z7Q2/giphy.gif" width="250">  
 
 ## 🛠️ Tech Stack & Tools  
 
