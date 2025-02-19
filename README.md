@@ -69,23 +69,9 @@ Here are some of my projects:
 
 ## 🤝 Let's Connect  
 
-🔗 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="30"> **LinkedIn:** [Muhammad Obaid Ullah](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="30">[Muhammad Obaid Ullah](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)  
 
-📧 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" height="30"> **Email:** [muhammadobaid103@gmail.com](mailto:muhammadobaid103@gmail.com)  
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" height="30">[muhammadobaid103@gmail.com](mailto:muhammadobaid103@gmail.com)  
 
-## 🤝 Let's Connect  
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="40">
-  </a>
-  <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/">Muhammad Obaid Ullah</a>
-</p>
-
-<p align="left">
-  <a href="mailto:muhammadobaid103@gmail.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" height="40">
-  </a>
-  <strong>Email:</strong> <a href="mailto:muhammadobaid103@gmail.com">muhammadobaid103@gmail.com</a>
-</p>
 
