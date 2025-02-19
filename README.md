@@ -10,6 +10,17 @@ I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Sc
 I am passionate about programming, game development, and web development.  
 
 <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="250">
+![Obaid's Terminal](https://github-readme-terminal.vercel.app/?username=Obaid03&theme=radical)
+![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&layout=compact&theme=radical)
+[![Obaid's DevCard](https://devcard.vercel.app/api?username=Obaid03)](https://github.com/Obaid03)
+![3D GitHub Contribution Graph](https://github.com/Obaid03/Obaid03/blob/output/github-contribution-grid-snake.svg)
+## 🛠️ Tech Stack
+<p>
+  <img src="https://skillicons.dev/icons?i=cpp,python,html,css,js,react,git,github,vscode,linux" height="50">
+</p>
+![Banner](https://github.com/Obaid03/Obaid03/blob/main/banner.gif)
+
+
 
 - 🎓 **Bachelor of Science (BS) in Computer Science**  
 - 💬 Ask me about anything related to **programming, web development, and tech**  
