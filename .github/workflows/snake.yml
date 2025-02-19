@@ -3,32 +3,35 @@ name: Generate Snake
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs every day at midnight
-    
-
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@master
+      - name: Checkout repository
+        uses: actions/checkout@v4  # ✅ Ensures the repo is available
+
+      - name: Generate Snake Contribution Grid
+        uses: Platane/snk@master
         id: snake-gif
         with:
           github_user_name: Obaid03
           svg_out_path: dist/github-contribution-grid-snake.svg
-          
-      - uses: actions/upload-artifact@v4  # ✅ Updated to v4
+
+      - name: Upload Snake GIF as Artifact
+        uses: actions/upload-artifact@v4  # ✅ Ensures latest version
         with:
           name: snake-gif
           path: dist/github-contribution-grid-snake.svg
-          
+          if-no-files-found: error  # Ensures workflow fails if the file is missing
+
       - name: Commit and Push Snake Animation
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add dist/github-contribution-grid-snake.svg
           git commit -m "Generated snake contribution graph" || echo "No changes to commit"
-          git branch -M output  # Ensure we're on the correct branch
-          git push origin output
+          git push origin main  # ✅ Make sure this matches your repo's main branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
