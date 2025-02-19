@@ -76,7 +76,6 @@ Here are some of my projects:
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=github-dark" width="497px"/>
 </div>
 
-### 🐍 GitHub Contribution Snake
 ### 🐍 Watch my contributions turn into a snake!
 
 ![GitHub Snake Animation](https://github.com/Obaid03/Obaid03/blob/output/github-snake-dark.svg?raw=true)
