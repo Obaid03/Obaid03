@@ -1,17 +1,15 @@
-# Hi, I'm Muhammad Obaid Ullah <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
-
-
-## 👨‍🎓 About Me  
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=FF0050&center=true&vCenter=true&width=435&lines=Welcome+to+My+GitHub!;FAST+University+Student;Passionate+Coder+%26+Developer" alt="Typing SVG" />
 </p>
 
+# Hi, I'm Muhammad Obaid Ullah <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+
+
+## 👨‍🎓 About Me  
 I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Science from FAST University.  
 I am passionate about programming, game development, and web development.  
-<img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="50">
 
-<!--![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&color=ff0050&style=flat)-->  
-<!--![Profile Views](https://shields.io/badge/dynamic/json?color=ff0050&label=Profile%20Views&query=value&url=https://api.countapi.xyz/hit/Obaid03/visits)-->
+<img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="250">
 
 - 🎓 **Bachelor of Science (BS) in Computer Science**  
 - 💬 Ask me about anything related to **programming, web development, and tech**  
@@ -59,12 +57,11 @@ I am passionate about programming, game development, and web development.
 ![GitHub Followers](https://img.shields.io/github/followers/Obaid03?label=Followers&style=flat&color=red)  
 ![GitHub Contributions](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?color=blue&label=Total%20Contributions&query=totalContributions&url=https://api.github.com/users/Obaid03)
 ![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&label=Profile%20Views&color=ff0050&style=flat)
+
 ### 🐍 Watch my contributions turn into a snake!
 <p align="center">
   <img src="https://github.com/Obaid03/Obaid03/blob/output/github-contribution-grid-snake.svg" alt="snake animation">
 </p>
-
-
 
 ## 🏆 GitHub Achievements
 
@@ -88,7 +85,6 @@ Here are some of my projects:
 <p align="center">
   <img src="https://github.com/Obaid03/Obaid03/blob/output/github-contribution-grid-snake.svg" alt="snake animation">
 </p>
-
 
 
 ## 🤝 Let's Connect  
