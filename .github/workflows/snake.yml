@@ -86,7 +86,7 @@ jobs:
 
         with:
 
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
           publish_dir: ./dist
 
