@@ -82,7 +82,7 @@ Here are some of my projects:
 </div>
 
 ### 🐍 GitHub Contribution Snake  
-![GitHub Snake](https://raw.githubusercontent.com/Obaid03/output/main/github-snake-radical.svg)
+![GitHub Snake](https://raw.githubusercontent.com/Obaid03/output/main/github-snake-radical-dark.svg)
 
 
 
