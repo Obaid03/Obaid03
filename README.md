@@ -11,7 +11,8 @@ I am passionate about programming, game development, and web development.
 
 - 🎓 **Bachelor of Science (BS) in Computer Science**  
 - 💬 Ask me about anything related to **programming, web development, and tech**
-- <img src="https://media.giphy.com/media/hqU2KkjW5bE2v2Z7Q2/giphy.gif" width="250">  
+- <img src="https://media.giphy.com/media/hqU2KkjW5bE2v2Z7Q2/giphy.gif" width="250">  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="250">
+  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="250">
 
 ## 🛠️ Tech Stack & Tools  
 
