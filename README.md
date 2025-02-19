@@ -69,9 +69,29 @@ Here are some of my projects:
 
 ## 🤝 Let's Connect  
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="30">[Muhammad Obaid Ullah](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)  
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" height="30">[muhammadobaid103@gmail.com](mailto:muhammadobaid103@gmail.com)  
-
-
-
+<table>
+  <tr>
+    <td align="center" width="50">
+      <a href="https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40">
+      </a>
+    </td>
+    <td>
+      <a href="https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/" target="_blank" style="font-size: 18px; text-decoration: none;">
+        <b>Muhammad Obaid Ullah</b>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50">
+      <a href="mailto:muhammadobaid103@gmail.com">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" width="40">
+      </a>
+    </td>
+    <td>
+      <a href="mailto:muhammadobaid103@gmail.com" style="font-size: 18px; text-decoration: none;">
+        <b>muhammadobaid103@gmail.com</b>
+      </a>
+    </td>
+  </tr>
+</table>
