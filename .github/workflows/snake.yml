@@ -16,7 +16,7 @@ jobs:
           github_user_name: Obaid03
           svg_out_path: dist/github-contribution-grid-snake.svg
           
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: snake-gif
           path: dist/github-contribution-grid-snake.svg
