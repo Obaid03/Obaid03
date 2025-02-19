@@ -1,4 +1,5 @@
-# Hi, I'm Muhammad Obaid Ullah 👋
+# Hi, I'm Muhammad Obaid Ullah <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+
 
 ## 👨‍🎓 About Me  
 I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Science from FAST University.  
@@ -20,7 +21,6 @@ I am passionate about programming, game development, and web development.
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)
-![LeetCode Stats](https://leetcode-badge-api.herokuapp.com/api/Obaid03/badge?style=flat)
 
 ### **Web Development**
 ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white)
