@@ -65,9 +65,9 @@ jobs:
           # Define the output files and their configurations
 
           outputs: |
-            dist/github-snake.svg?color_snake=#ff0055&color_dots=#ffcc00,#ff00ff,#00ffff
+            dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/radical.gif?color_snake=#ff0055&color_dots=#ffcc00,#ff00ff,#00ffff
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
 
         env:
