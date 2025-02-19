@@ -11,10 +11,6 @@ I am passionate about programming, game development, and web development.
 
 <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="250">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&theme=radical)
-
-![Obaid's GitHub Stats](https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.stars.svg)
-
 
 <a href="https://app.daily.dev/yourusername">
   <img src="https://github.com/Obaid03/Obaid03/blob/main/devcard.svg" width="400" alt="Obaid03's DevCard"/>
@@ -25,7 +21,7 @@ I am passionate about programming, game development, and web development.
   <img src="https://skillicons.dev/icons?i=cpp,python,html,css,js,react,git,github,vscode,linux" height="50">
 </p>
 
-<img src="https://raw.githubusercontent.com/Obaid03/Obaid03/main/banner.gif" width="100%">
+<img src="https://github.com/Obaid03/Obaid03/raw/main/banner.gif" width="100%">
 
 
 
