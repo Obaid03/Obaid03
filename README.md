@@ -68,5 +68,8 @@ Here are some of my projects:
 ![GitHub Snake Animation](https://github.com/Obaid03/Obaid03/blob/output/github-snake-dark.svg?raw=true)
 
 ## 🤝 Let's Connect  
-🔗  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="50"> [LinkedIn](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)  
-📧   <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" height="50"> muhammadobaid103@gmail.com  
+
+🔗 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="30"> **LinkedIn:** [Muhammad Obaid Ullah](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)  
+
+📧 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" height="30"> **Email:** [muhammadobaid103@gmail.com](mailto:muhammadobaid103@gmail.com)  
+
