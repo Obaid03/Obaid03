@@ -10,21 +10,29 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@master
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Snake Animation
+        uses: Platane/snk@master
         id: snake-gif
         with:
           github_user_name: Obaid03
           svg_out_path: dist/github-contribution-grid-snake.svg
-          
-      - uses: actions/upload-artifact@v4
+
+      - name: Upload Snake Animation as Artifact
+        uses: actions/upload-artifact@v4
         with:
           name: snake-gif
           path: dist/github-contribution-grid-snake.svg
-          
-      - name: Push Snake Animation
+
+      - name: Commit and Push Snake Animation
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add dist/github-contribution-grid-snake.svg
-          git commit -m "Generated snake contribution graph"
+          git commit -m "Generated snake contribution graph" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
