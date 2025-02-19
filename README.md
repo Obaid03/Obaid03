@@ -1,8 +1,7 @@
 <h1 align="center">Hi, I'm Muhammad Obaid Ullah <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=FF0050&center=true&vCenter=true&width=435&lines=Welcome+to+My+GitHub!;FAST+University+Student;Passionate+Coder+%26+Developer" alt="Typing SVG" />
-  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=FF0050&center=true&vCenter=true&width=600&lines=Welcome+to+My+GitHub!;FAST+University+Student;Passionate+Coder+%26+Developer;Tech+Enthusiast+🚀;Gamer+🎮" alt="Typing SVG" />
 </p>
 ## 👨‍🎓 About Me  
 I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Science from FAST University.  
