@@ -58,11 +58,6 @@ I am passionate about programming, game development, and web development.
 ![GitHub Contributions](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?color=blue&label=Total%20Contributions&query=totalContributions&url=https://api.github.com/users/Obaid03)
 ![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&label=Profile%20Views&color=ff0050&style=flat)
 
-### 🐍 Watch my contributions turn into a snake!
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Obaid03/Obaid03/output/github-contribution-grid-snake.svg" alt="snake animation">
-</p>
-
 
 ## 🏆 GitHub Achievements
 
@@ -82,9 +77,9 @@ Here are some of my projects:
 </div>
 
 ### 🐍 GitHub Contribution Snake
+### 🐍 Watch my contributions turn into a snake!
 
-![GitHub Snake Animation](https://raw.githubusercontent.com/Obaid03/output/github-snake-dark.svg)
-
+![GitHub Snake Animation](https://github.com/Obaid03/Obaid03/blob/output/github-snake-dark.svg?raw=true)
 
 ## 🤝 Let's Connect  
 🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)  
