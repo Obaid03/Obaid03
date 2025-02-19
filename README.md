@@ -11,39 +11,25 @@ I am passionate about programming, game development, and web development.
 
 <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="250">
 
-## 🛠️ Tech Stack
-<p>
-  <img src="https://skillicons.dev/icons?i=cpp,python,html,css,js,react,git,github,vscode,linux" height="50">
-</p>
-
-
 - 🎓 **Bachelor of Science (BS) in Computer Science**  
 - 💬 Ask me about anything related to **programming, web development, and tech**  
 - 📫 **How to reach me:** muhammadobaid103@gmail.com  
 - 🔗 **Connect with me on [LinkedIn](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)**
   
 
-## 🛠️ Tech Stack & Tools
+## 🛠️ Tech Stack & Tools  
 
-### **Languages**
-![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)
+### **Languages**  
+<img src="https://skillicons.dev/icons?i=c,cpp,python,js" height="50">
+ 
+### **Web Development**  
+<img src="https://skillicons.dev/icons?i=html,css" height="50">
 
-### **Web Development**
-![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white)
+### **Tools & Technologies**  
 
-### **Tools & Technologies**
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-![MS Office](https://img.shields.io/badge/-MS%20Office-D83B01?style=flat&logo=microsoft-office&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)
-![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mysql,github,vscode,windows,linux" height="50">
+</p>
 
 ## 📈 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=radical&card_width=497)
