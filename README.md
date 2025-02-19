@@ -60,8 +60,9 @@ I am passionate about programming, game development, and web development.
 
 ### 🐍 Watch my contributions turn into a snake!
 <p align="center">
-  <img src="https://github.com/Obaid03/Obaid03/blob/output/github-contribution-grid-snake.svg" alt="snake animation">
+  <img src="https://raw.githubusercontent.com/Obaid03/Obaid03/output/github-contribution-grid-snake.svg" alt="snake animation">
 </p>
+
 
 ## 🏆 GitHub Achievements
 
