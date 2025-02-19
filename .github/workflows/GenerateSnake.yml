@@ -31,9 +31,14 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+          git fetch origin output || git checkout -b output  # Fetch or create the branch
+          git checkout output  # Switch to output branch
+
           git add dist/github-contribution-grid-snake.svg
           git commit -m "Generated snake contribution graph" || echo "No changes to commit"
-          git branch -M output
+
           git push origin output
+
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
