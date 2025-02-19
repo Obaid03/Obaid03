@@ -81,9 +81,9 @@ Here are some of my projects:
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=github-dark" width="497px"/>
 </div>
 
-### 🐍 GitHub Contribution Snake  
-![GitHub Snake](https://raw.githubusercontent.com/Obaid03/output/main/github-snake-radical-dark.svg)
+### 🐍 GitHub Contribution Snake
 
+![GitHub Snake Animation](https://raw.githubusercontent.com/Obaid03/output/github-snake-dark.svg)
 
 
 ## 🤝 Let's Connect  
