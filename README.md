@@ -3,14 +3,22 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=FF0050&center=true&vCenter=true&width=600&lines=Welcome+to+My+GitHub!;FAST+University+Student;Passionate+Coder+%26+Developer;Tech+Enthusiast+🚀;Gamer+🎮" alt="Typing SVG" />
 </p>
-## 👨‍🎓 About Me  
-I am Muhammad OBAID ULLAH, a student pursuing a Bachelor's degree in Computer Science from FAST University.  
-I am passionate about programming, game development, and web development.  
 
-- 🎓 **Bachelor of Science (BS) in Computer Science**  
-- 💬 Ask me about anything related to **programming, web development, and tech**
-- <img src="https://media.giphy.com/media/hqU2KkjW5bE2v2Z7Q2/giphy.gif" width="250">  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="250">
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="212">
+## 👨‍🎓 About Me  
+
+🔴 **🎓 Bachelor of Science (BS) in Computer Science**  
+🔴 **💻 Tech Enthusiast | Game & Web Developer**  
+🔴 **🚀 Always Learning & Exploring New Technologies**  
+🔴 **✨ Passionate About Coding & Building Cool Projects**  
+
+💬 **Feel free to ask me about programming, web development, and tech innovations!**  
+
+<p align="center">
+  <img src="https://media.giphy.com/media/hqU2KkjW5bE2v2Z7Q2/giphy.gif" width="230">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="250">
+  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="211">
+</p>
+
 
 ## 🛠️ Tech Stack & Tools  
 
