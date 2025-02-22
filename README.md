@@ -59,9 +59,29 @@
 
 
 ## 🚀 Featured Projects
-Here are some of my projects:
 
-- 🎮 **[Rocket Shooting Game](https://github.com/Obaid03/PF_RocketGame)** ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=white)
+<table style="width:100%;">
+  <tr>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50">
+    </td>
+    <td>
+      🎮 <a href="https://github.com/Obaid03/PF_RocketGame" target="_blank" style="font-size: 18px; text-decoration: none;">
+        <b>Rocket Shooting Game</b>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50">
+    </td>
+    <td>
+      🛒 <a href="https://github.com/Obaid03/Grocery_Store_Website" target="_blank" style="font-size: 18px; text-decoration: none;">
+        <b>Grocery Store Website</b>
+      </a>
+    </td>
+  </tr>
+</table>
 
 
 ## 📊 GitHub Activity Graph
