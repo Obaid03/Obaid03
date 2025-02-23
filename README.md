@@ -50,7 +50,7 @@
 
 ### 👥 GitHub Profile Stats  
 ![GitHub Followers](https://img.shields.io/github/followers/Obaid03?label=Followers&style=flat&color=ff0050)  ![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&label=Profile%20Views&color=ff0050&style=flat)
-![GitHub Contributions](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?color=ff0050&style=flat&label=Total%20Contributions&query=totalContributions&url=https://api.github.com/users/Obaid03)
+![GitHub Contributions](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?color=ff0050&label=Total%20Contributions&query=totalContributions&url=https://api.github.com/users/Obaid03)
 
 
 ## 🏆 GitHub Achievements
