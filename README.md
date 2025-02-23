@@ -87,7 +87,7 @@
 ## 📊 GitHub Activity Graph
 
 <div align="left">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=github-dark" width="497px"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&bg_color=000000&color=ff79c6&line=bd93f9&point=50fa7b&area_color=44475a&title_color=ff79c6&hide_border=true" width="497px"/>
 </div>
 
 ## 🐍 Watch my contributions turn into a snake!
