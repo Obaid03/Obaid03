@@ -6,6 +6,7 @@
 
 ## 👨‍🎓 About Me  
 
+🔴 **🎓 Bachelor of Science (BS) in Computer Science**  
 🔴 **💻 Tech Enthusiast | Game & Web Developer**  
 🔴 **🚀 Always Learning & Exploring New Technologies**  
 🔴 **✨ Passionate About Coding & Building Cool Projects**  
