@@ -1,96 +1,71 @@
-name: GitHub Snake Game
-
-
+name: GitHub Snake Game & Metrics
 
 on:
-
   # Schedule the workflow to run daily at midnight UTC
-
   schedule:
-
     - cron: "0 0 * * *"
 
-
-
   # Allow manual triggering of the workflow
-
   workflow_dispatch:
 
-
-
   # Trigger the workflow on pushes to the main branch
-
   push:
-
     branches:
-
       - main
 
-
-
 jobs:
-
-  generate:
-
+  generate-snake:
     runs-on: ubuntu-latest
-
     timeout-minutes: 10
 
-
-
     steps:
-
       # Step 1: Checkout the repository
-
       - name: Checkout Repository
-
         uses: actions/checkout@v3
 
-
-
       # Step 2: Generate the snake animations
-
       - name: Generate GitHub Contributions Snake Animations
-
         uses: Platane/snk@v3
-
         with:
-
-          # GitHub username to generate the animation for
-
           github_user_name: ${{ github.repository_owner }}
-
-
-
-          # Define the output files and their configurations
-
           outputs: |
             dist/github-snake-dark.svg?palette=github-dark&color_background=#000000
             dist/github-snake-dark-custom.svg?color_snake=#7FFF00&color_dots=#00FF00,#008000,#006400,#32CD32,#ADFF2F&color_background=#000000
 
-
-
-
         env:
-
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-
-
       # Step 3: Deploy the generated files to the 'output' branch
-
       - name: Deploy to Output Branch
-
         uses: peaceiris/actions-gh-pages@v3
-
         with:
-
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-
           publish_dir: ./dist
-
           publish_branch: output
-
-          # Optionally, you can set a custom commit message
-
           commit_message: "Update snake animation [skip ci]"
+
+  generate-metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Generate GitHub Metrics
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Obaid03
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Karachi
+          plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_threshold: 2%
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_isocalendar: yes
+          plugin_followup: yes
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_lines: yes
