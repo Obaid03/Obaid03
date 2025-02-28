@@ -122,3 +122,10 @@
     </td>
   </tr>
 </table>
+
+
+
+
+
+### 📊 My GitHub Metrics  
+![Metrics](https://github.com/Obaid03/Obaid03/blob/main/github-metrics.svg)
