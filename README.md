@@ -51,7 +51,7 @@
 
 ### 👥 GitHub Profile Stats  
 ![GitHub Followers](https://img.shields.io/github/followers/Obaid03?label=Followers&style=flat&color=ff0050)  ![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&label=Profile%20Views&color=ff0050&style=flat)
-![GitHub Contributions](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?color=ff0050&label=Total%20Contributions&query=totalContributions&url=https://api.github.com/users/Obaid03)[![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/Obaid03/Obaid03?color=ff0050&label=Commit%20Activity)](https://github.com/Obaid03/Obaid03/graphs/commit-activity)[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/Obaid03/Obaid03/snake.yml?label=Workflow%20Status&color=ff0050&labelColor=000000&style=flat)](https://github.com/Obaid03/Obaid03/actions)
+![GitHub Contributions](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?color=ff0050&label=Total%20Contributions&query=totalContributions&url=https://api.github.com/users/Obaid03) [![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/Obaid03/Obaid03?color=ff0050&label=Commit%20Activity)](https://github.com/Obaid03/Obaid03/graphs/commit-activity) [![GitHub Actions](https://img.shields.io/github/actions/workflow/status/Obaid03/Obaid03/snake.yml?label=Workflow%20Status&color=ff0050&labelColor=000000&style=flat)](https://github.com/Obaid03/Obaid03/actions)
 
 
 <!--## 🏆 GitHub Achievements
