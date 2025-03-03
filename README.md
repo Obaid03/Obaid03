@@ -96,7 +96,7 @@
 ![GitHub Snake Animation](https://github.com/Obaid03/Obaid03/blob/output/github-snake-dark.svg?raw=true)-->
 
 ## 🤝 Let's Connect  
-
+<!--
 <table>
   <tr>
     <td align="center" width="50">
@@ -122,7 +122,7 @@
       </a>
     </td>
   </tr>
-</table>
+</table>-->
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Obaid%20Ullah-ff0050?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)  [![Gmail](https://img.shields.io/badge/Gmail-muhammadobaid103@gmail.com-ff0050?style=flat&logo=gmail&logoColor=white)](mailto:muhammadobaid103@gmail.com)  [![Discord](https://img.shields.io/badge/Discord-Obaid03-ff0050?style=flat&logo=discord&logoColor=white)](https://discord.com/users/1275831607550410886)  [![GitHub](https://img.shields.io/badge/GitHub-Obaid03-ff0050?style=flat&logo=github&logoColor=white)](https://github.com/Obaid03)
 
