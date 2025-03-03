@@ -54,9 +54,9 @@
 ![GitHub Contributions](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?color=ff0050&label=Total%20Contributions&query=totalContributions&url=https://api.github.com/users/Obaid03)
 
 
-## 🏆 GitHub Achievements
+<!--## 🏆 GitHub Achievements
 
-![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=Obaid03&theme=radical)
+![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=Obaid03&theme=radical)-->
 
 
 ## 🚀 Featured Projects
