@@ -91,9 +91,10 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&bg_color=000000&color=ff79c6&line=bd93f9&point=50fa7b&area_color=44475a&title_color=ff79c6&hide_border=true" width="497px"/>
 </div>
 
+<!--
 ## 🐍 Watch my contributions turn into a snake!
 
-![GitHub Snake Animation](https://github.com/Obaid03/Obaid03/blob/output/github-snake-dark.svg?raw=true)
+![GitHub Snake Animation](https://github.com/Obaid03/Obaid03/blob/output/github-snake-dark.svg?raw=true)-->
 
 ## 🤝 Let's Connect  
 
@@ -126,7 +127,7 @@
 
 
 
-
+<!--
 ### 📊 My GitHub Metrics  
-![Metrics](https://github.com/Obaid03/Obaid03/blob/main/github-metrics.svg)
+![Metrics](https://github.com/Obaid03/Obaid03/blob/main/github-metrics.svg)-->
 
