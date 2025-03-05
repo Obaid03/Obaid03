@@ -55,13 +55,13 @@
   <h3>💻 GitHub Profile Stats</h3>
   <p>
     <img alt="Obaid's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=highcontrast&hide_border=true&card_width=305&hide=prs"/>
-    <img alt="Obaid's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=highcontrast&hide_border=true&langs_count=8&card_width=370"/>
+    <img alt="Obaid's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=highcontrast&hide_border=true&langs_count=6&card_width=370"/>
   </p>
 
 <h3>📊 Contribution Graph</h3>
 
 <div style="max-width: 870px; overflow-x: auto; text-align: center;">
-  <img src="https://github-readme-activity-graph.vercel.app/graph/?username=Obaid03&bg_color=000000&color=FFD700&line=FFD700&point=FFFFFF&hide_border=true" width="90%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph/?username=Obaid03&bg_color=000000&color=FFD700&line=FFD700&point=FFFFFF&hide_border=true" width="850px" />
 </div>
 
 
