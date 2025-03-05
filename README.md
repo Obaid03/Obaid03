@@ -132,9 +132,6 @@
 ![Metrics](https://github.com/Obaid03/Obaid03/blob/main/github-metrics.svg)-->
 
 
-### 🎮 Rocket Shooting Game
-![Rocket Shooting Game](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/rocket-game.svg)
-
 [![Rocket Shooting Game](Projects/rocket-game.svg)](https://github.com/Obaid03/PF_RocketGame)
 
 [![Grocery Store Website](Projects/website.svg)](https://github.com/Obaid03/Grocery_Store_Website)
