@@ -140,4 +140,4 @@
 ## 🚀 My Projects
 
 ### 🎮 Rocket Shooting Game
-![Rocket Shooting Game](https://raw.githubusercontent.com/Obaid03/Obaid03/main/projects/rocket-game.svg)
+![Rocket Shooting Game](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/rocket-game.svg)
