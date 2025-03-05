@@ -1,138 +1,104 @@
-<h1 align="center">Hi, I'm Muhammad Obaid Ullah <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></h1>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=FF0050&center=true&vCenter=true&width=600&lines=Welcome+to+My+GitHub!;FAST+University+Student;Passionate+Coder+%26+Developer;Tech+Enthusiast+🚀;Gamer+🎮" alt="Typing SVG" />
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=Obaid03&label=👀%20Visitors%20%20%20%20&style=for-the-badge&color=000000&labelColor=D98324">
 </p>
 
-## 👨‍🎓 About Me  
-
-🔴 **🎓 Bachelor of Science (BS) in Computer Science**  
-🔴 **💻 Tech Enthusiast | Game & Web Developer**  
-🔴 **🚀 Always Learning & Exploring New Technologies**  
-🔴 **✨ Passionate About Coding & Building Cool Projects**  
-
-💬 **Feel free to ask me about programming, web development, and tech innovations!**  
+<h1 align="center"><b>Hi, I'm OBAID</b> <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="40px"></h1>
 
 
-<!--<p align="center">
-  <img src="https://media.giphy.com/media/hqU2KkjW5bE2v2Z7Q2/giphy.gif" width="230">
-  <!--<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="250">-->
- <!-- <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="211">
-</p>-->
+<details open>
+  <summary><h2>👨‍🎓 About Me</h2></summary>
+
+  - 🎓 **First-Year BS Computer Science Student** – FAST NUCES Karachi  
+  - 💻 **Aspiring Software & Game Developer** | Tech Enthusiast  
+  - 🚀 **Eager to Learn & Explore** – C, C++, Python, OOP, and Web Development  
+  - ✨ **Passionate About Problem-Solving & Building Projects**  
+  - 🌱 **Learning About:** Object-Oriented Programming  
+
+  ### 📬 Connect with Me:
+  <p align="left">
+    <a href="https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/" target="_blank">
+      <img src="https://skillicons.dev/icons?i=linkedin" width="50" alt="LinkedIn" />
+    </a>
+    <a href="mailto:muhammadobaid103@gmail.com">
+      <img src="https://skillicons.dev/icons?i=gmail" width="50" alt="Gmail" />
+    </a>
+    <a href="https://discord.com/users/1275831607550410886" target="_blank">
+      <img src="https://skillicons.dev/icons?i=discord" width="50" alt="Discord" />
+    </a>
+    <a href="https://github.com/Obaid03" target="_blank">
+      <img src="https://skillicons.dev/icons?i=github" width="50" alt="GitHub" />
+    </a>
+  </p>
+
+</details>
 
 
-## 🛠️ Tech Stack & Tools  
+<details>
+  <summary><h2>🛠️ Tech Stack</h2></summary>
 
-### **Languages**  
-<img src="https://skillicons.dev/icons?i=c,cpp,python,js" height="50">
- 
-### **Web Development**  
-<img src="https://skillicons.dev/icons?i=html,css" height="50">
+  <h3>Programming Languages & Web Development</h3>  
+  <p>
+    <img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css" height="50">
+  </p>
 
-### **Tools & Technologies**  
+  <h3>Tools & Technologies</h3>  
+  <p>
+    <img src="https://skillicons.dev/icons?i=github,vscode,linux,mysql,windows" height="50">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT" height="50">
+  </p>
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=mysql,github,vscode,windows,linux" height="50">
+</details>
+
+<details>
+  <summary><h2>📈 GitHub Stats</h2></summary>
+
+  <h3>💻 GitHub Profile Stats</h3>
+  <p>
+    <img alt="Obaid's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=highcontrast&hide_border=true&card_width=400&hide=prs"/>
+    <img alt="Obaid's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=highcontrast&hide_border=true&langs_count=8&card_width=400"/>
+  </p>
+
+<h3>📊 Contribution Graph</h3>
+
+<p>
+  <img width="870" alt="Obaid's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=Obaid03&bg_color=000000&color=FFD700&line=FFD700&point=FFFFFF&hide_border=true&"/>
 </p>
 
-## 📈 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=radical&card_width=497)
 
-## 🔥 GitHub Streak
+</details>
 
-<!--![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Obaid03&theme=radical)-->
-<!--![GitHub Streak](https://streak-stats.demolab.com/?user=Obaid03&theme=radical)-->
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Obaid03&theme=radical&timestamp=312)
-
-
-## 🚀 Top Languages
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=radical&card_width=497&langs_count=16)
-
-### 👥 GitHub Profile Stats  
-![Profile Views](https://komarev.com/ghpvc/?username=Obaid03&label=Profile%20Views&color=ff0050&style=flat)  ![GitHub Followers](https://img.shields.io/github/followers/Obaid03?label=Followers&style=flat&color=ff0050)  [![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/Obaid03/Obaid03?color=ff0050&label=Commit%20Activity&style=flat)](https://github.com/Obaid03/Obaid03/graphs/commit-activity)  [![GitHub Actions](https://img.shields.io/github/actions/workflow/status/Obaid03/Obaid03/snake.yml?label=Workflow%20Status&color=ff0050&style=flat)](https://github.com/Obaid03/Obaid03/actions) ![GitHub Contributions](https://custom-icon-badges.herokuapp.com/badge/dynamic/json?color=ff0050&label=Total%20Contributions&query=totalContributions&url=https://api.github.com/users/Obaid03)  
-
-
-<!--## 🏆 GitHub Achievements
-
-![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=Obaid03&theme=radical)-->
-
-
-## 🚀 Featured Projects
-
-<table style="width:100%;">
-  <tr>
-    <td align="center" width="80">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50">
-    </td>
-    <td>
-      🎮 <a href="https://github.com/Obaid03/PF_RocketGame" target="_blank" style="font-size: 18px; text-decoration: none;">
-        <b>Rocket Shooting Game</b>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="80">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50">
-    </td>
-    <td>
-      🛒 <a href="https://github.com/Obaid03/Grocery_Store_Website" target="_blank" style="font-size: 18px; text-decoration: none;">
-        <b>Grocery Store Website</b>
-      </a>
-    </td>
-  </tr>
-</table>
-
-
-## 📊 GitHub Activity Graph
-
-<div align="left">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&bg_color=000000&color=ff79c6&line=bd93f9&point=50fa7b&area_color=44475a&title_color=ff79c6&hide_border=true" width="1000px"/>
-</div>
-
-<!--
-## 🐍 Watch my contributions turn into a snake!
-
-![GitHub Snake Animation](https://github.com/Obaid03/Obaid03/blob/output/github-snake-dark.svg?raw=true)-->
-
-## 🤝 Let's Connect  
-<!--
-<table>
-  <tr>
-    <td align="center" width="50">
-      <a href="https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40">
-      </a>
-    </td>
-    <td>
-      <a href="https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/" target="_blank" style="font-size: 18px; text-decoration: none;">
-        <b>Muhammad Obaid Ullah</b>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50">
-      <a href="mailto:muhammadobaid103@gmail.com">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" width="40">
-      </a>
-    </td>
-    <td>
-      <a href="mailto:muhammadobaid103@gmail.com" style="font-size: 18px; text-decoration: none;">
-        <b>muhammadobaid103@gmail.com</b>
-      </a>
-    </td>
-  </tr>
-</table>-->
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Obaid%20Ullah-ff0050?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/)  [![Gmail](https://img.shields.io/badge/Gmail-muhammadobaid103@gmail.com-ff0050?style=flat&logo=gmail&logoColor=white)](mailto:muhammadobaid103@gmail.com)  [![Discord](https://img.shields.io/badge/Discord-Obaid03-ff0050?style=flat&logo=discord&logoColor=white)](https://discord.com/users/1275831607550410886)  [![GitHub](https://img.shields.io/badge/GitHub-Obaid03-ff0050?style=flat&logo=github&logoColor=white)](https://github.com/Obaid03)
-
-
-<!--
-### 📊 My GitHub Metrics  
-![Metrics](https://github.com/Obaid03/Obaid03/blob/main/github-metrics.svg)-->
-
-
+<details>
+  <summary><h2>🚀 Featured Projects</h2></summary>
+  
+  
 [![Rocket Shooting Game](Projects/rocket-game.svg)](https://github.com/Obaid03/PF_RocketGame)
 
 [![Grocery Store Website](Projects/website.svg)](https://github.com/Obaid03/Grocery_Store_Website)
 
+</details>
+
+
+<details>
+  <summary><h2>👨‍💻 Repositories</h2></summary>
+  <br>
+
+  <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+    <a href="https://github.com/Obaid03/PF_RocketGame" title="PF_RocketGame">
+      <img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Obaid03&repo=PF_RocketGame&theme=highcontrast&border_color=FFD700&border_radius=10">
+    </a>
+    <a href="https://github.com/Obaid03/Grocery_Store_Website" title="Grocery_Store_Website">
+      <img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Obaid03&repo=Grocery_Store_Website&theme=highcontrast&border_color=FFD700&border_radius=10">
+    </a>
+    <a href="https://github.com/Obaid03/FAST_First_Semester_24" title="FAST_First_Semester_24">
+      <img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Obaid03&repo=FAST_First_Semester_24&theme=highcontrast&border_color=FFD700&border_radius=10">
+    </a>
+    <a href="https://github.com/Obaid03/PF_LAB" title="PF_LAB">
+      <img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Obaid03&repo=PF_LAB&theme=highcontrast&border_color=FFD700&border_radius=10">
+    </a>
+  </div>
+
+  <br>
+  <h4 align="center">
+    <a href="https://github.com/Obaid03?tab=repositories" title="Show Repositories">🔎 Show More 🔍</a>
+  </h4>
+</details>
