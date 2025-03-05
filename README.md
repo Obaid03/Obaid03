@@ -131,3 +131,9 @@
 ### 📊 My GitHub Metrics  
 ![Metrics](https://github.com/Obaid03/Obaid03/blob/main/github-metrics.svg)-->
 
+<svg width="400" height="80" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="80" fill="#000000"/>
+  <text x="20" y="50" font-family="Arial" font-size="24" fill="#FFD700" font-weight="bold">
+    🚀 Rocket Shooting Game
+  </text>
+</svg>
