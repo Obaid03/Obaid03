@@ -61,9 +61,14 @@
 <h3>📊 Contribution Graph</h3>
 
 <div style="max-width: 870px; overflow-x: auto; text-align: center;">
-  <img src="https://github-readme-activity-graph.vercel.app/graph/?username=Obaid03&bg_color=000000&color=FFD700&line=FFD700&point=FFFFFF&hide_border=true" width="850px" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph/?username=Obaid03&bg_color=000000&color=FFD700&line=FFD700&point=FFFFFF&hide_border=true" width="810px" />
 </div>
 
+<h3>📋 Profile Summary</h3> 
+
+<p>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Obaid03&theme=highcontrast" width="810">
+</p>
 
 </details>
 
