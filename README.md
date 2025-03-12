@@ -89,16 +89,16 @@
 
   <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
     <a href="https://github.com/Obaid03/PF_RocketGame" title="PF_RocketGame">
-      <img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Obaid03&repo=PF_RocketGame&theme=highcontrast&border_color=FFD700&border_radius=10">
+      <img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Obaid03&repo=PF_RocketGame&theme=highcontrast&border_color=FFD700&border_radius=10&description"/>
     </a>
     <a href="https://github.com/Obaid03/Grocery_Store_Website" title="Grocery_Store_Website">
-      <img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Obaid03&repo=Grocery_Store_Website&theme=highcontrast&border_color=FFD700&border_radius=10">
+      <img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Obaid03&repo=Grocery_Store_Website&theme=highcontrast&border_color=FFD700&border_radius=10&description"/>
     </a>
     <a href="https://github.com/Obaid03/FAST_First_Semester_24" title="FAST_First_Semester_24">
-      <img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Obaid03&repo=FAST_First_Semester_24&theme=highcontrast&border_color=FFD700&border_radius=10">
+      <img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Obaid03&repo=FAST_First_Semester_24&theme=highcontrast&border_color=FFD700&border_radius=10&description"/>
     </a>
     <a href="https://github.com/Obaid03/PF_LAB" title="PF_LAB">
-      <img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Obaid03&repo=PF_LAB&theme=highcontrast&border_color=FFD700&border_radius=10">
+      <img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=Obaid03&repo=PF_LAB&theme=highcontrast&border_color=FFD700&border_radius=10&description"/>
     </a>
   </div>
 
@@ -107,6 +107,7 @@
     <a href="https://github.com/Obaid03?tab=repositories" title="Show Repositories">🔎 Show More 🔍</a>
   </h4>
 </details>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=FFD700&size=24&center=true&vCenter=true&width=500&lines=Thanks+for+Visiting!+🤝" alt="Thanks for Visiting">
