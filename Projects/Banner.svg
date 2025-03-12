@@ -1,9 +1,50 @@
-<svg width="600" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
-  <rect width="600" height="100" fill="#000000"/>
-  <text x="20" y="40" font-family="Arial" font-size="24" fill="#FFD700" font-weight="bold">
+<!-- 1️⃣ Main Banner (HI, I'M OBAID 👋) -->
+<svg width="600" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFD700; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00; stop-opacity:1" />
+    </linearGradient>
+    <filter id="glowEffect" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="600" height="120" fill="#000000"/>
+
+  <text x="50%" y="50" font-family="Arial" font-size="28" fill="url(#glow)" font-weight="bold" text-anchor="middle" filter="url(#glowEffect)">
     HI, I'M OBAID 👋
   </text>
-  <text x="20" y="70" font-family="Arial" font-size="20" fill="#FFD700" font-weight="bold">
+
+  <text x="50%" y="90" font-family="Arial" font-size="18" fill="#FFD700" text-anchor="middle">
     🚀 Aspiring Software &amp; Game Developer
   </text>
+</svg>
+
+<!-- 2️⃣ Rocket Shooting Game -->
+<svg width="600" height="120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="120" fill="#000000"/>
+  <text x="50%" y="50" font-family="Arial" font-size="28" fill="#FFD700" font-weight="bold" text-anchor="middle">
+    🚀 Rocket Shooting Game
+  </text>
+  <text x="50%" y="90" font-family="Arial" font-size="18" fill="#FFD700" text-anchor="middle">
+    ⚙️ Console-Based | Developed in C
+  </text>
+  <animateTransform attributeType="XML" attributeName="transform" type="translate" from="-10 0" to="10 0" dur="1.5s" repeatCount="indefinite"/>
+</svg>
+
+<!-- 3️⃣ Grocery Store Website -->
+<svg width="600" height="120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="120" fill="#000000"/>
+  <text x="50%" y="50" font-family="Arial" font-size="28" fill="#FFD700" font-weight="bold" text-anchor="middle">
+    🛒 Grocery Store Website
+  </text>
+  <text x="50%" y="90" font-family="Arial" font-size="18" fill="#FFD700" text-anchor="middle">
+    HTML, CSS, and JavaScript
+  </text>
+  <animateTransform attributeType="XML" attributeName="transform" type="scale" from="1" to="1.1" dur="1s" repeatCount="indefinite"/>
 </svg>
