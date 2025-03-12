@@ -16,8 +16,8 @@
   <!-- Waving Hand Emoji (placed to the right of text) -->
   <text x="365" y="65" font-size="35" fill="black">
     👋
-    <animateTransform attributeType="XML" attributeName="transform" type="rotate"
-      values="0 380 65; 15 380 65; 0 380 65" dur="1.5s" repeatCount="indefinite"/>
+    <!--<animateTransform attributeType="XML" attributeName="transform" type="rotate"
+      values="0 380 65; 15 380 65; 0 380 65" dur="1.5s" repeatCount="indefinite"/>-->
   </text>
 
   <!-- Subtext -->
