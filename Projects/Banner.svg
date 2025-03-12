@@ -1,16 +1,28 @@
 <svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
   <rect width="600" height="120" fill="black"/>
   
+  <!-- Glow Effect -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
   <!-- Main Text -->
   <text x="50%" y="50" font-family="Arial" font-size="28" fill="#FFD700" font-weight="bold" text-anchor="middle">
-    Hi, I'm OBAID
+    Hi, I'm 
+    <tspan filter="url(#glow)" font-weight="bold">OBAID</tspan>
   </text>
-  
-  <!-- Waving Hand (Position Fixed) -->
-  <text x="420" y="50" font-size="28" fill="#FFD700">
+
+  <!-- Waving Hand (Properly Positioned) -->
+  <text x="435" y="50" font-size="28" fill="#FFD700">
     👋
     <animateTransform attributeType="XML" attributeName="transform" type="rotate"
-      values="0 430 50; 15 430 50; 0 430 50" dur="1.5s" repeatCount="indefinite"/>
+      values="0 445 50; 15 445 50; 0 445 50" dur="1.5s" repeatCount="indefinite"/>
   </text>
 
   <!-- Subtext -->
