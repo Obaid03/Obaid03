@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/banner.svg" alt="HI, I'M OBAID">
+  <img src="https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/Banner.svg" alt="HI, I'M OBAID">
 </p>
 
 
