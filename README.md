@@ -3,9 +3,6 @@
 </p>
 
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/banner.svg" alt="HI, I'M OBAID">
-</p>
 
 
 
