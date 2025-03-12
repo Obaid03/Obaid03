@@ -3,7 +3,9 @@
 </p>
 
 
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/banner.svg" alt="HI, I'M OBAID">
+</p>
 
 
 <h1 align="center"><b>Hi, I'm OBAID</b> <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="40px"></h1>
