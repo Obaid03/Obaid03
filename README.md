@@ -1,3 +1,7 @@
+<!--
+![GitHub Contribution Pie Chart](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Obaid03&theme=highcontrast)
+-->
+
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=Obaid03&label=👀%20Visitors%20%20%20%20&style=for-the-badge&color=000000&labelColor=D98324">
 </p>
