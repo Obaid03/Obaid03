@@ -61,10 +61,8 @@ def progress_bar(percentage):
     filled = int(float(percentage.strip('%')) // 5)  # Each 5% = 1 block
     return "█" * filled + "░" * (20 - filled)
 
-# Generate output text
+# Generate output text (without "I'm an Early")
 commit_breakdown_text = f"""
-## I'm an Early 🐤
-
 |  | Time Period | Commits | Progress | Percentage |
 |---|---|---|---|---|
 | ☀️ | Morning   | {morning} commits | `{progress_bar(morning_pct)}` | {morning_pct} |
@@ -80,7 +78,12 @@ with open("README.md", "r") as file:
 start_marker = "<!-- COMMIT_BREAKDOWN_START -->"
 end_marker = "<!-- COMMIT_BREAKDOWN_END -->"
 
-new_content = content.split(start_marker)[0] + start_marker + commit_breakdown_text + end_marker
+# Split the content and preserve everything before and after the markers
+before_marker = content.split(start_marker)[0]
+after_marker = content.split(end_marker)[1]
+
+# Combine the content with the new commit breakdown
+new_content = before_marker + start_marker + commit_breakdown_text + end_marker + after_marker
 
 with open("README.md", "w") as file:
     file.write(new_content)
