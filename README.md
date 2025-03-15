@@ -82,6 +82,11 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Obaid03&theme=highcontrast" width="810">
 </p>
 
+### 📊 GitHub Activity Breakdown
+
+![Metrics](https://github.com/Obaid03/Obaid03/blob/main/metrics.svg)
+
+
 </details>
 
 <details>
