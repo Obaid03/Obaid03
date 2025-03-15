@@ -131,11 +131,6 @@
 </p>
 
 
-
-# My Project
-
-Welcome to my project! Here's some information about my commit activity:
-
 <!-- COMMIT_BREAKDOWN_START -->
 ## I'm an Early 🐤
 
