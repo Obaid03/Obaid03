@@ -129,3 +129,13 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=FFD700&size=24&center=true&vCenter=true&width=500&lines=Thanks+for+Visiting!+🤝" alt="Thanks for Visiting">
 </p>
+<!-- COMMIT_BREAKDOWN_START -->
+## I'm an Early 🐤
+
+|  | Time Period | Commits | Progress | Percentage |
+|---|------------|---------|----------|------------|
+| ☀️ | Morning   | 0 commits | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
+| 🌆 | Daytime   | 7 commits | `████░░░░░░░░░░░░░░░░` | 23.33% |
+| 🌃 | Evening   | 23 commits | `███████████████░░░░░` | 76.67% |
+| 🌙 | Night     | 0 commits | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
+<!-- COMMIT_BREAKDOWN_END -->
