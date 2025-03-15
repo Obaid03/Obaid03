@@ -137,8 +137,12 @@
 Welcome to my project! Here's some information about my commit activity:
 
 <!-- COMMIT_BREAKDOWN_START -->
+## I'm an Early 🐤
+
+|  | Time Period | Commits | Progress | Percentage |
+|---|------------|---------|----------|------------|
+| ☀️ | Morning   | 0 commits | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
+| 🌆 | Daytime   | 3 commits | `██░░░░░░░░░░░░░░░░░░` | 10.00% |
+| 🌃 | Evening   | 27 commits | `██████████████████░░` | 90.00% |
+| 🌙 | Night     | 0 commits | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
 <!-- COMMIT_BREAKDOWN_END -->
-
-## Other Sections
-
-Feel free to add other sections to your README as needed.
