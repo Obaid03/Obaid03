@@ -84,7 +84,9 @@
 
 ### 📊 GitHub Activity Breakdown
 
-![Metrics](https://github.com/Obaid03/Obaid03/blob/main/metrics.svg)
+<!-- COMMIT_BREAKDOWN_START -->
+<!-- COMMIT_BREAKDOWN_END -->
+
 
 
 </details>
@@ -129,15 +131,3 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=FFD700&size=24&center=true&vCenter=true&width=500&lines=Thanks+for+Visiting!+🤝" alt="Thanks for Visiting">
 </p>
-
-
-<!-- COMMIT_BREAKDOWN_START -->
-## I'm an Early 🐤
-
-|  | Time Period | Commits | Progress | Percentage |
-|---|------------|---------|----------|------------|
-| ☀️ | Morning   | 0 commits | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
-| 🌆 | Daytime   | 3 commits | `██░░░░░░░░░░░░░░░░░░` | 10.00% |
-| 🌃 | Evening   | 27 commits | `██████████████████░░` | 90.00% |
-| 🌙 | Night     | 0 commits | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
-<!-- COMMIT_BREAKDOWN_END -->
