@@ -23,3 +23,4 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
+          plugin_habits_trim: yes  # ✅ This ensures text format instead of bars
