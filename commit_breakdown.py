@@ -1,75 +1,75 @@
+
+---
+
+### **2️⃣ Modify Your Python Script (`commit_breakdown.py`)**  
+Update your Python script so that it fetches your actual commit breakdown and replaces these placeholders in `README.md`.  
+
+#### **Here’s an updated script:**  
+```python
 import requests
 import os
-from collections import defaultdict
-from datetime import datetime, timezone
+import json
+from datetime import datetime
 
-# Get environment variables
-TOKEN = os.getenv("GITHUB_TOKEN")
-REPO = "Obaid03/Obaid03"  # Change to your actual repo name
-URL = f"https://api.github.com/repos/{REPO}/commits"
+# GitHub username and repository
+USERNAME = "Obaid03"
+REPO = "Obaid03"
 
-headers = {"Authorization": f"token {TOKEN}"}
-response = requests.get(URL, headers=headers)
+# GitHub API URL
+url = f"https://api.github.com/repos/{USERNAME}/{REPO}/commits"
+
+# Headers for authentication
+headers = {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"}
+
+# Get commit data
+response = requests.get(url, headers=headers)
 
 if response.status_code != 200:
-    print("Failed to fetch commits:", response.status_code, response.text)
-    exit(1)  # Stop execution if API call fails
+    print(f"Error fetching commits: {response.status_code}")
+    exit(1)
 
 commits = response.json()
 
-if not isinstance(commits, list):  # Ensure response is a list
-    print("Unexpected API response format:", commits)
-    exit(1)
+# Initialize counters
+morning, daytime, evening, night = 0, 0, 0, 0
+total_commits = len(commits)
 
-# Dictionary to store commit counts per time of day
-commit_times = defaultdict(int)
-
+# Categorize commits based on time
 for commit in commits:
-    if not isinstance(commit, dict):
-        print("Skipping invalid commit entry:", commit)
-        continue
-    
-    commit_time = commit.get("commit", {}).get("author", {}).get("date")
-    if not commit_time:
-        print("Skipping commit with missing date:", commit)
-        continue
-    
-    # Convert commit time to UTC hour
-    commit_datetime = datetime.strptime(commit_time, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-    hour = commit_datetime.hour
-    
-    # Categorize commits by time of day
-    if 5 <= hour < 12:
-        commit_times["🌞 Morning"] += 1
+    commit_time = commit["commit"]["author"]["date"]
+    hour = datetime.fromisoformat(commit_time[:-1]).hour  # Remove 'Z' from timestamp
+
+    if 6 <= hour < 12:
+        morning += 1
     elif 12 <= hour < 18:
-        commit_times["🌆 Daytime"] += 1
+        daytime += 1
     elif 18 <= hour < 24:
-        commit_times["🌃 Evening"] += 1
+        evening += 1
     else:
-        commit_times["🌙 Night"] += 1
+        night += 1
 
-# Calculate total commits
-total_commits = sum(commit_times.values())
+# Calculate percentages
+morning_pct = f"{(morning / total_commits) * 100:.2f}%" if total_commits else "0.00%"
+daytime_pct = f"{(daytime / total_commits) * 100:.2f}%" if total_commits else "0.00%"
+evening_pct = f"{(evening / total_commits) * 100:.2f}%" if total_commits else "0.00%"
+night_pct = f"{(night / total_commits) * 100:.2f}%" if total_commits else "0.00%"
 
-# Generate breakdown text
-breakdown_text = "\n## 📊 Commit Breakdown  \n\n```text\n"
-for period, count in commit_times.items():
-    percentage = (count / total_commits) * 100 if total_commits > 0 else 0
-    breakdown_text += f"{period:<25}{count:<10} {percentage:6.2f} %\n"
-breakdown_text += "```\n"
+# Read README.md
+with open("README.md", "r") as file:
+    content = file.read()
 
-# Read current README
-with open("README.md", "r", encoding="utf-8") as file:
-    readme_content = file.read()
+# Replace placeholders
+content = content.replace("{{MORNING_COMMITS}}", str(morning))
+content = content.replace("{{MORNING_PERCENTAGE}}", morning_pct)
+content = content.replace("{{DAYTIME_COMMITS}}", str(daytime))
+content = content.replace("{{DAYTIME_PERCENTAGE}}", daytime_pct)
+content = content.replace("{{EVENING_COMMITS}}", str(evening))
+content = content.replace("{{EVENING_PERCENTAGE}}", evening_pct)
+content = content.replace("{{NIGHT_COMMITS}}", str(night))
+content = content.replace("{{NIGHT_PERCENTAGE}}", night_pct)
 
-# Replace old breakdown with new one
-if "## 📊 Commit Breakdown" in readme_content:
-    updated_readme = readme_content.split("## 📊 Commit Breakdown")[0] + breakdown_text
-else:
-    updated_readme = readme_content + "\n" + breakdown_text
+# Write back to README.md
+with open("README.md", "w") as file:
+    file.write(content)
 
-# Write updated README
-with open("README.md", "w", encoding="utf-8") as file:
-    file.write(updated_readme)
-
-print("✅ Commit breakdown updated successfully!")
+print("README.md updated successfully!")
