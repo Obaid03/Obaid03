@@ -1,4 +1,4 @@
-name: GitHub Activity Metrics
+name: GitHub Activity
 
 on:
   schedule:
@@ -6,10 +6,10 @@ on:
   workflow_dispatch: # Allows manual trigger
 
 jobs:
-  metrics:
+  activity:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate GitHub Activity Metrics
+      - name: Generate GitHub Activity
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -19,8 +19,16 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
 
-          # Commit activity breakdown
+          # Commit activity breakdown (Morning, Daytime, Night)
           plugin_habits: yes
           plugin_habits_facts: yes
-          plugin_habits_charts: no  # ❌ Disable charts
-          plugin_habits_trim: yes   # ✅ Enable text-based display
+          plugin_habits_charts: yes
+
+      - name: Save Activity SVG
+        run: mv metrics.plugin-habits.svg activity.svg
+
+      - name: Upload Activity SVG to Repository
+        uses: actions/upload-artifact@v3
+        with:
+          name: activity
+          path: activity.svg
