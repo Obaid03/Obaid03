@@ -1,11 +1,3 @@
-
----
-
-### **2️⃣ Modify Your Python Script (`commit_breakdown.py`)**  
-Update your Python script so that it fetches your actual commit breakdown and replaces these placeholders in `README.md`.  
-
-#### **Here’s an updated script:**  
-```python
 import requests
 import os
 import json
