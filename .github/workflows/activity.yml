@@ -23,12 +23,6 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
-
-      - name: Save Activity SVG
-        run: mv metrics.plugin-habits.svg activity.svg
-
-      - name: Upload Activity SVG to Repository
-        uses: actions/upload-artifact@v3
-        with:
-          name: activity
-          path: activity.svg
+          
+          # Output file name
+          filename: activity.svg
