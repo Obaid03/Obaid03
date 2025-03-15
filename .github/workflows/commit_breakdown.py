@@ -29,13 +29,13 @@ while True:
 morning, daytime, evening, night = 0, 0, 0, 0
 total_commits = len(commits)
 
-# Set your local time zone
-local_tz = pytz.timezone("Your/Timezone")  # Example: "America/New_York"
+# Set your local time zone (Pakistan)
+local_tz = pytz.timezone("Asia/Karachi")
 
 for commit in commits:
     commit_time = commit["commit"]["author"]["date"]
     utc_time = datetime.fromisoformat(commit_time[:-1])  # Convert from UTC
-    local_time = utc_time.astimezone(local_tz)  # Convert to local time
+    local_time = utc_time.astimezone(local_tz)  # Convert to Pakistan time
     hour = local_time.hour
 
     if 6 <= hour < 12:
