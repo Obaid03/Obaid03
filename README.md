@@ -55,8 +55,8 @@
 
   <h3>💻 GitHub Profile Stats</h3>
   <p>
-    <img alt="Obaid's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=highcontrast&hide_border=true&card_width=400"/>
-    <img alt="Obaid's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=highcontrast&hide_border=true&langs_count=8&card_width=400"/>
+    <img alt="Obaid's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=highcontrast&hide_border=true&card_width=500"/>
+    <img alt="Obaid's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=highcontrast&hide_border=true&langs_count=10&card_width=500"/>
   </p>
 
 <h3>📊 Contribution Graph</h3>
@@ -68,12 +68,6 @@
 ### 📊 GitHub Activity Breakdown 🐤
 
 <!-- COMMIT_BREAKDOWN_START -->
-|  | Time Period | Commits | Progress | Percentage |
-|---|---|---|---|---|
-| ☀️ | Morning   | 28 commits | `█░░░░░░░░░░░░░░░░░░░` | 7.93% |
-| 🌆 | Daytime   | 147 commits | `████████░░░░░░░░░░░░` | 41.64% |
-| 🌃 | Evening   | 98 commits | `█████░░░░░░░░░░░░░░░` | 27.76% |
-| 🌙 | Night     | 80 commits | `████░░░░░░░░░░░░░░░░` | 22.66% |
 <!-- COMMIT_BREAKDOWN_END -->
 
 
