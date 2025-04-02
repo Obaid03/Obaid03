@@ -1,19 +1,35 @@
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=Obaid03&label=👀%20Visitors%20%20%20%20&style=for-the-badge&color=000000&labelColor=D98324">
-
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/Banner.svg" alt="HI, I'M OBAID">
 </p>
+<p align="center">
+    <img alt="WakaTime" title="WakaTime" src="https://wakatime.com/badge/user/2371372e-1742-4d26-9cf0-6b976484ecfd.svg?&style=for-the-badge&color=00000F"/>
+<p/>
 
 <details open>
   <summary><h2>👨‍🎓 About Me</h2></summary>
 
-  - 🎓 **First-Year BS Computer Science Student** – FAST NUCES Karachi  
-  - 💻 **Aspiring Software & Game Developer** | Tech Enthusiast  
-  - 🚀 **Eager to Learn & Explore** – C, C++, Python, OOP, and Web Development  
-  - ✨ **Passionate About Problem-Solving & Building Projects**  
-  - 🌱 **Learning About:** Object-Oriented Programming  
+  ```cpp
+class OBAID {
+public:
+    // Personal Information
+    const char* pronouns = "He/Him";
+    const char* education = "BS Computer Science Student – FAST NUCES Karachi";
+    const char* passion = "Passionate about software development and problem-solving | Tech Enthusiast";
+    
+    // Learning & Skills
+    const char* languages[3] = {"C", "C++", "Python"};
+    
+    // Tech Stack & Tools
+    const char* tools[4] = {"Git", "GitHub", "VS Code", "Windows"};
+    
+    // Current Focus
+    const char* currentFocus = "Learning Object-Oriented Programming (OOP)";
+};
+```
 
   ### 📬 Connect with Me:
   <p align="left">
@@ -44,26 +60,27 @@
 
   <h3>Tools & Technologies</h3>  
   <p>
-    <img src="https://skillicons.dev/icons?i=github,vscode,linux,mysql,windows" height="50">
+    <img src="https://skillicons.dev/icons?i=github,git,vscode,mysql,windows" height="50">
     <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT" height="50">
   </p>
 
 </details>
 
 <details>
-  <summary><h2>📈 GitHub Stats</h2></summary>
+  <summary><h2>📈 Stats</h2></summary>
+
 
   <h3>💻 GitHub Profile Stats</h3>
-  <p>
-    <img alt="Obaid's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=highcontrast&hide_border=true&card_width=500"/>
-    <img alt="Obaid's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=highcontrast&hide_border=true&langs_count=10&card_width=500"/>
-  </p>
-
-<h3>📊 Contribution Graph</h3>
-
 <p>
-  <img width="870" alt="Obaid's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=Obaid03&bg_color=000000&color=FFD700&line=FFD700&point=FFFFFF&hide_border=true&"/>
+    <img alt="Obaid's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=highcontrast&hide_border=true&card_width=400&hide=prs&title_color=FFD700"/>
+    <img alt="Obaid's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=highcontrast&hide_border=true&langs_count=8&card_width=400&title_color=FFD700"/>
 </p>
+
+  <h3>💻 Wakatime Stats</h3>
+  <p>
+      <img align="center" width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=@Obaid03&theme=highcontrast&card_width=805&title_color=FFD700&bg_color=000000&layout=default&hide_border=true&text_color=FFFFFF" />
+</p>
+
 
 ### 📊 GitHub Activity Breakdown 🐤
 
@@ -119,4 +136,12 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=FFD700&size=24&center=true&vCenter=true&width=500&lines=Thanks+for+Visiting!+🤝" alt="Thanks for Visiting">
 </p>
+
+
+
+
+
+
+
+
 
