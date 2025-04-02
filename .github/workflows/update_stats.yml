@@ -21,20 +21,19 @@ jobs:
           pip install requests python-dateutil
 
       - name: Fetch commit stats
-        id: commit-data
-        run: |
-          # Fetch raw commit data from GitHub API
-          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            "https://api.github.com/repos/Obaid03/Obaid03/stats/commit_activity" > commit_data.json
+  id: commit-data
+  run: |
+    curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+      "https://api.github.com/repos/Obaid03/Obaid03/stats/commit_activity" > commit_data.json
 
-          # Process data (total commits, weekly average)
-          echo "COMMIT_STATS=$(python -c '
-import json, datetime
-with open("commit_data.json") as f:
+    echo "COMMIT_STATS=$(python3 <<EOF
+import json
+with open('commit_data.json') as f:
     data = json.load(f)
-total = sum(week["total"] for week in data)
-print(f"Total: {total} | Last Week: {data[-1][""total""]}")
-          ')" >> $GITHUB_OUTPUT
+total = sum(week['total'] for week in data)
+print(f"Total: {total} | Last Week: {data[-1]['total']}")
+EOF
+    )" >> $GITHUB_OUTPUT
 
       - name: Update README
         uses: gr2m/github-script@v6
