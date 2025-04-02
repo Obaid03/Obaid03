@@ -84,8 +84,20 @@ public:
 
 ### 📊 GitHub Activity Breakdown 🐤
 
+
 <!-- COMMIT_BREAKDOWN_START -->
+### 🕒 Commit Activity Breakdown  
+
+|  | Time Period | Commits | Progress | Percentage |
+|---|---|---|---|---|
+| ☀️ | Morning   | 41 | `██░░░░░░░░░░░░░░░░░░` | 10.30% |
+| 🌆 | Daytime   | 177 | `████████░░░░░░░░░░░░` | 44.47% |
+| 🌃 | Evening   | 98 | `████░░░░░░░░░░░░░░░░` | 24.62% |
+| 🌙 | Night     | 82 | `████░░░░░░░░░░░░░░░░` | 20.60% |
+
+_Last updated: 2025-04-02 15:50:15 (PKT)_
 <!-- COMMIT_BREAKDOWN_END -->
+
 
 
 
@@ -156,5 +168,3 @@ Welcome to my GitHub profile! Here's a breakdown of my commit activity:
 | 🌙 | Night     | 0 | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
 
 _Last updated: --:-- (PKT)_
-<!-- COMMIT_BREAKDOWN_END -->
-
