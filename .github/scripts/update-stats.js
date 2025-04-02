@@ -4,40 +4,32 @@ const { Octokit } = require('@octokit/rest');
 async function updateStats() {
   try {
     const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-
-    // Get commit activity with proper error handling
     const { data } = await octokit.repos.getCommitActivityStats({
       owner: 'Obaid03',
       repo: 'Obaid03'
     });
 
-    if (!Array.isArray(data)) {
-      throw new Error('Invalid API response format');
-    }
+    if (!Array.isArray(data)) throw new Error('API returned non-array data');
 
-    // Calculate totals safely
-    const totalCommits = data.reduce((sum, week) => sum + (week?.total || 0), 0);
-    const lastWeekCommits = data.length > 0 ? (data.slice(-1)[0]?.total || 0) : 0;
+    const total = data.reduce((sum, week) => sum + (week?.total || 0), 0);
+    const lastWeek = data.slice(-1)[0]?.total || 0;
 
-    // Update README
-    const readmePath = './README.md';
-    let readme = fs.readFileSync(readmePath, 'utf8');
-    
-    readme = readme.replace(
-      /<!--COMMIT_STATS_START-->[\s\S]*<!--COMMIT_STATS_END-->/,
-      `<!--COMMIT_STATS_START-->
-### 📊 Real-Time Commit Activity
-| Period        | Commits  |
-|---------------|----------|
-| **All Time**  | ${totalCommits.toLocaleString()} |
-| **Last Week** | ${lastWeekCommits.toLocaleString()} |
-<!--COMMIT_STATS_END-->`
+    const statsTable = `<!--COMMIT_STATS_START-->
+### 📊 Commit Activity
+| Period       | Commits   |
+|--------------|----------|
+| All Time     | ${total.toLocaleString()} |
+| Last Week    | ${lastWeek.toLocaleString()} |
+<!--COMMIT_STATS_END-->`;
+
+    fs.writeFileSync('./README.md', 
+      fs.readFileSync('./README.md', 'utf8')
+        .replace(/<!--COMMIT_STATS_START-->[\s\S]*<!--COMMIT_STATS_END-->/, statsTable)
     );
-
-    fs.writeFileSync(readmePath, readme);
-    console.log('Successfully updated stats!');
+    
+    console.log('✅ Stats updated successfully');
   } catch (error) {
-    console.error('Error updating stats:', error.message);
+    console.error('❌ Error:', error.message);
     process.exit(1);
   }
 }
