@@ -13,15 +13,21 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
       
       - name: Install dependencies
         run: npm install @octokit/rest
       
-      - name: Run script
+      - name: Run update script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node .github/scripts/update-stats.js
+        run: |
+          node .github/scripts/update-stats.js
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
       
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Update stats"
+          commit_message: "📈 Update commit stats"
+          branch: main
