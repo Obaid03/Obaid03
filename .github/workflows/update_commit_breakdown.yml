@@ -24,7 +24,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python .github/workflows/commit_breakdown.py | tee debug.log
+          python python .github/scripts/commit_breakdown.py | tee debug.log
 
       - name: Upload debug log
         uses: actions/upload-artifact@v4  # Fixed version
