@@ -3,15 +3,14 @@ import os
 from datetime import datetime
 import pytz  # Install with `pip install pytz`
 
-# GitHub Username & Repository
+# GitHub Username
 USERNAME = "Obaid03"
-REPO = "Obaid03"
 
-# GitHub API URL
-API_URL = f"https://api.github.com/repos/{USERNAME}/{REPO}/commits"
+# GitHub API URL for events (tracks all commits across repositories)
+API_URL = f"https://api.github.com/users/{USERNAME}/events"
 HEADERS = {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"}
 
-# Fetch all commits (handle pagination)
+# Fetch all commit events (handle pagination)
 commits = []
 page = 1
 while True:
@@ -22,7 +21,16 @@ while True:
     data = response.json()
     if not data:
         break
-    commits.extend(data)
+
+    # Extract commits from PushEvents
+    for event in data:
+        if event["type"] == "PushEvent":
+            for commit in event["payload"]["commits"]:
+                if commit["author"]["name"] == USERNAME:  # Only count your commits
+                    commits.append(commit)
+
+    if len(data) < 100:  # Stop if fewer than 100 events in the last page
+        break
     page += 1
 
 # Categorize commits based on time
@@ -33,7 +41,7 @@ total_commits = len(commits)
 local_tz = pytz.timezone("Asia/Karachi")
 
 for commit in commits:
-    commit_time = commit["commit"]["author"]["date"]
+    commit_time = commit["timestamp"]
     utc_time = datetime.fromisoformat(commit_time[:-1])  # Convert from UTC
     local_time = utc_time.astimezone(local_tz)  # Convert to Pakistan time
     hour = local_time.hour
@@ -61,7 +69,7 @@ def progress_bar(percentage):
     filled = int(float(percentage.strip('%')) // 5)  # Each 5% = 1 block
     return "█" * filled + "░" * (20 - filled)
 
-# Generate output text (without "I'm an Early")
+# Generate output text
 commit_breakdown_text = f"""
 |  | Time Period | Commits | Progress | Percentage |
 |---|---|---|---|---|
@@ -69,6 +77,8 @@ commit_breakdown_text = f"""
 | 🌆 | Daytime   | {daytime} commits | `{progress_bar(daytime_pct)}` | {daytime_pct} |
 | 🌃 | Evening   | {evening} commits | `{progress_bar(evening_pct)}` | {evening_pct} |
 | 🌙 | Night     | {night} commits | `{progress_bar(night_pct)}` | {night_pct} |
+
+_Last updated: {datetime.now(local_tz).strftime('%Y-%m-%d %H:%M:%S')}_  
 """
 
 # Update README.md
