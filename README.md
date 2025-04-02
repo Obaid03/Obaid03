@@ -76,7 +76,7 @@ public:
     <img alt="Obaid's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=highcontrast&hide_border=true&langs_count=8&card_width=400&title_color=FFD700"/>
 </p>
 
-  <h3>💻 Wakatime Stats</h3>
+  <h3>⏳ Time Allocation</h3>
   <p>
       <img align="center" width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=@Obaid03&theme=highcontrast&card_width=805&title_color=FFD700&bg_color=000000&layout=default&hide_border=true&text_color=FFFFFF" />
 </p>
@@ -136,12 +136,4 @@ public:
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=FFD700&size=24&center=true&vCenter=true&width=500&lines=Thanks+for+Visiting!+🤝" alt="Thanks for Visiting">
 </p>
-
-
-
-
-
-
-
-
 
