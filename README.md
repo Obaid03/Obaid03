@@ -82,11 +82,6 @@
 
 <details>
   <summary><h2>🚀 Featured Projects</h2></summary>
-  
-  
-[![Rocket Shooting Game](Projects/rocket-game.svg)](https://github.com/Obaid03/PF_RocketGame)
-
-[![Grocery Store Website](Projects/website.svg)](https://github.com/Obaid03/Grocery_Store_Website)
 
 [![Rocket Shooting Game](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/rocket-game.svg)](https://github.com/Obaid03/PF_RocketGame)
 [![Grocery Store Website](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/website.svg)](https://github.com/Obaid03/Grocery_Store_Website)
@@ -125,6 +120,3 @@
   <img src="https://readme-typing-svg.herokuapp.com?color=FFD700&size=24&center=true&vCenter=true&width=500&lines=Thanks+for+Visiting!+🤝" alt="Thanks for Visiting">
 </p>
 
-### 🚀 Featured Projects
-[![Rocket Shooting Game](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/rocket-game.svg)](https://github.com/Obaid03/PF_RocketGame)
-[![Grocery Store Website](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/website.svg)](https://github.com/Obaid03/Grocery_Store_Website)
