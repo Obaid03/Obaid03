@@ -1,0 +1,63 @@
+name: Update Activity Stats
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:      # Allows manual triggers
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests python-dateutil
+
+      - name: Fetch commit stats
+        id: commit-data
+        run: |
+          # Fetch raw commit data from GitHub API
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/Obaid03/Obaid03/stats/commit_activity" > commit_data.json
+
+          # Process data (total commits, weekly average)
+          echo "COMMIT_STATS=$(python -c '
+import json, datetime
+with open("commit_data.json") as f:
+    data = json.load(f)
+total = sum(week["total"] for week in data)
+print(f"Total: {total} | Last Week: {data[-1][""total""]}")
+          ')" >> $GITHUB_OUTPUT
+
+      - name: Update README
+        uses: gr2m/github-script@v6
+        with:
+          script: |
+            const fs = require('fs')
+            let readme = fs.readFileSync('README.md', 'utf8')
+            
+            // Replace commit stats section
+            readme = readme.replace(
+              /<!--COMMIT_STATS_START-->[\s\S]*<!--COMMIT_STATS_END-->/,
+              `<!--COMMIT_STATS_START-->
+### 📊 Real-Time Commit Activity
+| Period        | Commits  |
+|---------------|----------|
+| **All Time**  | ${{ steps.commit-data.outputs.COMMIT_STATS.split("|")[0].split(":")[1].trim()} |
+| **Last Week** | ${{ steps.commit-data.outputs.COMMIT_STATS.split("|")[1].split(":")[1].trim()}} |
+<!--COMMIT_STATS_END-->`
+            )
+
+            fs.writeFileSync('README.md', readme)
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update activity stats"
