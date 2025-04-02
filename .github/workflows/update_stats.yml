@@ -1,7 +1,7 @@
 name: Update Activity Stats
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 * * * *'  # Runs hourly
   workflow_dispatch:
 
 jobs:
@@ -17,17 +17,19 @@ jobs:
       - name: Fetch commit stats
         id: commit-data
         run: |
+          # Get commit data from GitHub API
           curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             "https://api.github.com/repos/Obaid03/Obaid03/stats/commit_activity" > commit_data.json
 
-          echo "COMMIT_STATS=$(python3 <<EOF
+          # Process data using Python (simplified approach)
+          echo "COMMIT_STATS=$(python3 -c '
 import json
-with open('commit_data.json') as f:
+with open(\"commit_data.json\") as f:
     data = json.load(f)
-total = sum(week['total'] for week in data)
-print(f"Total: {total} | Last Week: {data[-1]['total']}")
-EOF
-          )" >> $GITHUB_OUTPUT
+total = sum(week[\"total\"] for week in data)
+last_week = data[-1][\"total\"]
+print(f\"Total:{total}|LastWeek:{last_week}\")
+          ')" >> $GITHUB_OUTPUT
 
       - name: Update README
         uses: gr2m/github-script@v6
@@ -35,18 +37,24 @@ EOF
           script: |
             const fs = require('fs')
             let readme = fs.readFileSync('README.md', 'utf8')
+            
+            const stats = process.env.COMMIT_STATS.split('|')
+            const total = stats[0].split(':')[1]
+            const lastWeek = stats[1].split(':')[1]
+
             readme = readme.replace(
               /<!--COMMIT_STATS_START-->[\s\S]*<!--COMMIT_STATS_END-->/,
               `<!--COMMIT_STATS_START-->
 ### 📊 Real-Time Commit Activity
 | Period        | Commits  |
 |---------------|----------|
-| **All Time**  | ${{ steps.commit-data.outputs.COMMIT_STATS.split("|")[0].split(":")[1].trim()} |
-| **Last Week** | ${{ steps.commit-data.outputs.COMMIT_STATS.split("|")[1].split(":")[1].trim()}} |
+| **All Time**  | ${total} |
+| **Last Week** | ${lastWeek} |
 <!--COMMIT_STATS_END-->`
             )
+
             fs.writeFileSync('README.md', readme)
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Update activity stats"
+          commit_message: "Update commit stats"
