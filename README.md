@@ -142,29 +142,3 @@ _Last updated: 2025-04-02 15:50:15 (PKT)_
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=FFD700&size=24&center=true&vCenter=true&width=500&lines=Thanks+for+Visiting!+🤝" alt="Thanks for Visiting">
 </p>
-
-
-<!--COMMIT_STATS_START-->
-### 📊 Real-Time Commit Activity
-| Period        | Commits  |
-|---------------|----------|
-| **All Time**  | 100 |
-| **Last Week** | 27 |
-<!--COMMIT_STATS_END-->
-
-
-# 🚀 My GitHub Profile
-
-Welcome to my GitHub profile! Here's a breakdown of my commit activity:
-
-<!-- COMMIT_BREAKDOWN_START -->
-### 🕒 Commit Activity Breakdown  
-
-|  | Time Period | Commits | Progress | Percentage |
-|---|---|---|---|---|
-| ☀️ | Morning   | 0 | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
-| 🌆 | Daytime   | 0 | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
-| 🌃 | Evening   | 0 | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
-| 🌙 | Night     | 0 | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
-
-_Last updated: --:-- (PKT)_
