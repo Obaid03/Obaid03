@@ -1,16 +1,17 @@
 import requests
 import os
 from datetime import datetime
-import pytz  # Install with `pip install pytz`
+import pytz  
 
-# GitHub Username
+# GitHub Username & Repository
 USERNAME = "Obaid03"
+REPO = "Obaid03"
 
-# GitHub API URL for events (tracks all commits across repositories)
-API_URL = f"https://api.github.com/users/{USERNAME}/events"
+# GitHub API URL
+API_URL = f"https://api.github.com/repos/{USERNAME}/{REPO}/commits"
 HEADERS = {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"}
 
-# Fetch all commit events (handle pagination)
+# Fetch all commits (handle pagination)
 commits = []
 page = 1
 while True:
@@ -21,29 +22,20 @@ while True:
     data = response.json()
     if not data:
         break
-
-    # Extract commits from PushEvents
-    for event in data:
-        if event["type"] == "PushEvent":
-            for commit in event["payload"]["commits"]:
-                if commit["author"]["name"] == USERNAME:  # Only count your commits
-                    commits.append(commit)
-
-    if len(data) < 100:  # Stop if fewer than 100 events in the last page
-        break
+    commits.extend(data)
     page += 1
 
 # Categorize commits based on time
 morning, daytime, evening, night = 0, 0, 0, 0
 total_commits = len(commits)
 
-# Set your local time zone (Pakistan)
+# Set Pakistan time zone
 local_tz = pytz.timezone("Asia/Karachi")
 
 for commit in commits:
-    commit_time = commit["timestamp"]
-    utc_time = datetime.fromisoformat(commit_time[:-1])  # Convert from UTC
-    local_time = utc_time.astimezone(local_tz)  # Convert to Pakistan time
+    commit_time = commit["commit"]["author"]["date"]
+    utc_time = datetime.fromisoformat(commit_time[:-1])  
+    local_time = utc_time.astimezone(local_tz)  
     hour = local_time.hour
 
     if 6 <= hour < 12:
@@ -59,26 +51,24 @@ for commit in commits:
 def percentage(part):
     return f"{(part / total_commits) * 100:.2f}%" if total_commits else "0.00%"
 
-morning_pct = percentage(morning)
-daytime_pct = percentage(daytime)
-evening_pct = percentage(evening)
-night_pct = percentage(night)
-
 # Function to generate progress bar
 def progress_bar(percentage):
-    filled = int(float(percentage.strip('%')) // 5)  # Each 5% = 1 block
+    filled = int(float(percentage.strip('%')) // 5)
     return "█" * filled + "░" * (20 - filled)
 
-# Generate output text
 commit_breakdown_text = f"""
+<!-- COMMIT_BREAKDOWN_START -->
+### 🕒 Commit Activity Breakdown  
+
 |  | Time Period | Commits | Progress | Percentage |
 |---|---|---|---|---|
-| ☀️ | Morning   | {morning} commits | `{progress_bar(morning_pct)}` | {morning_pct} |
-| 🌆 | Daytime   | {daytime} commits | `{progress_bar(daytime_pct)}` | {daytime_pct} |
-| 🌃 | Evening   | {evening} commits | `{progress_bar(evening_pct)}` | {evening_pct} |
-| 🌙 | Night     | {night} commits | `{progress_bar(night_pct)}` | {night_pct} |
+| ☀️ | Morning   | {morning} | `{progress_bar(percentage(morning))}` | {percentage(morning)} |
+| 🌆 | Daytime   | {daytime} | `{progress_bar(percentage(daytime))}` | {percentage(daytime)} |
+| 🌃 | Evening   | {evening} | `{progress_bar(percentage(evening))}` | {percentage(evening)} |
+| 🌙 | Night     | {night} | `{progress_bar(percentage(night))}` | {percentage(night)} |
 
-_Last updated: {datetime.now(local_tz).strftime('%Y-%m-%d %H:%M:%S')}_  
+_Last updated: {datetime.now(local_tz).strftime('%Y-%m-%d %H:%M:%S')} (PKT)_
+<!-- COMMIT_BREAKDOWN_END -->
 """
 
 # Update README.md
@@ -88,14 +78,14 @@ with open("README.md", "r") as file:
 start_marker = "<!-- COMMIT_BREAKDOWN_START -->"
 end_marker = "<!-- COMMIT_BREAKDOWN_END -->"
 
-# Split the content and preserve everything before and after the markers
-before_marker = content.split(start_marker)[0]
-after_marker = content.split(end_marker)[1]
+if start_marker in content and end_marker in content:
+    before_marker = content.split(start_marker)[0]
+    after_marker = content.split(end_marker)[1]
+    new_content = before_marker + commit_breakdown_text + after_marker
 
-# Combine the content with the new commit breakdown
-new_content = before_marker + start_marker + commit_breakdown_text + end_marker + after_marker
+    with open("README.md", "w") as file:
+        file.write(new_content)
 
-with open("README.md", "w") as file:
-    file.write(new_content)
-
-print("README.md updated successfully!")
+    print("✅ README.md updated successfully!")
+else:
+    print("❌ Error: Markers not found in README.md!")
