@@ -139,3 +139,22 @@ public:
 | **All Time**  | 100 |
 | **Last Week** | 27 |
 <!--COMMIT_STATS_END-->
+
+
+# 🚀 My GitHub Profile
+
+Welcome to my GitHub profile! Here's a breakdown of my commit activity:
+
+<!-- COMMIT_BREAKDOWN_START -->
+### 🕒 Commit Activity Breakdown  
+
+|  | Time Period | Commits | Progress | Percentage |
+|---|---|---|---|---|
+| ☀️ | Morning   | 0 | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
+| 🌆 | Daytime   | 0 | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
+| 🌃 | Evening   | 0 | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
+| 🌙 | Night     | 0 | `░░░░░░░░░░░░░░░░░░░░` | 0.00% |
+
+_Last updated: --:-- (PKT)_
+<!-- COMMIT_BREAKDOWN_END -->
+
