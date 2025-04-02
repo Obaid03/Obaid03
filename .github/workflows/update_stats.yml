@@ -1,60 +1,27 @@
-name: Update Activity Stats
+name: Update Stats
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs hourly
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
-  update-stats:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v4
+      
+      - uses: actions/setup-node@v4
         with:
-          python-version: '3.10'
-
-      - name: Fetch commit stats
-        id: commit-data
-        run: |
-          # Get commit data from GitHub API
-          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            "https://api.github.com/repos/Obaid03/Obaid03/stats/commit_activity" > commit_data.json
-
-          # Process data using Python (simplified approach)
-          echo "COMMIT_STATS=$(python3 -c '
-import json
-with open(\"commit_data.json\") as f:
-    data = json.load(f)
-total = sum(week[\"total\"] for week in data)
-last_week = data[-1][\"total\"]
-print(f\"Total:{total}|LastWeek:{last_week}\")
-          ')" >> $GITHUB_OUTPUT
-
-      - name: Update README
-        uses: gr2m/github-script@v6
-        with:
-          script: |
-            const fs = require('fs')
-            let readme = fs.readFileSync('README.md', 'utf8')
-            
-            const stats = process.env.COMMIT_STATS.split('|')
-            const total = stats[0].split(':')[1]
-            const lastWeek = stats[1].split(':')[1]
-
-            readme = readme.replace(
-              /<!--COMMIT_STATS_START-->[\s\S]*<!--COMMIT_STATS_END-->/,
-              `<!--COMMIT_STATS_START-->
-### 📊 Real-Time Commit Activity
-| Period        | Commits  |
-|---------------|----------|
-| **All Time**  | ${total} |
-| **Last Week** | ${lastWeek} |
-<!--COMMIT_STATS_END-->`
-            )
-
-            fs.writeFileSync('README.md', readme)
-
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: npm install @octokit/rest
+      
+      - name: Run script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/update-stats.js
+      
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Update commit stats"
+          commit_message: "Update stats"
