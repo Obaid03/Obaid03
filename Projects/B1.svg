@@ -1,0 +1,36 @@
+<svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="120" fill="#0D1117"/> <!-- Dark background -->
+  
+  <!-- Glow Effect -->
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0056b3" />
+      <stop offset="100%" stop-color="#0077ff" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main Text -->
+  <text x="50%" y="50" font-family="'Segoe UI', Arial, sans-serif" font-size="28" fill="url(#blueGradient)" font-weight="bold" text-anchor="middle">
+    Hi, I'm 
+    <tspan filter="url(#glow)" font-weight="bold">OBAID</tspan>
+  </text>
+
+  <!-- Waving Hand -->
+  <text x="435" y="50" font-size="28" fill="#0077ff">
+    👋
+    <animateTransform attributeType="XML" attributeName="transform" type="rotate"
+      values="0 445 50; 15 445 50; 0 445 50" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Subtext -->
+  <text x="50%" y="90" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#58A6FF" text-anchor="middle">
+    💻 CODE | 🛠️ DEBUG | 🔁 REPEAT
+  </text>
+</svg>
