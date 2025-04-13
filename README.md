@@ -1,16 +1,3 @@
-![Lines of Code](https://img.shields.io/tokei/lines/github/Obaid03?style=for-the-badge&color=FFD700&label=Total%20Lines%20of%20Code)
-
-
-![PGP](https://img.shields.io/badge/PGP-Signed_Commits-FFD700?style=for-the-badge&logo=gnuprivacyguard)
-
-
-[![Search Repos](https://img.shields.io/badge/Browse_Repositories-Click_Here-FFD700?style=for-the-badge&logo=github)](https://github.com/Obaid03?tab=repositories)
-
-<!-- Replace @Obaid03 with your WakaTime username -->
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=@Obaid03&layout=compact&theme=highcontrast&title_color=FFD700&hide_border=true" />
-
-
-
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=Obaid03&label=👀%20Visitors%20%20%20%20&style=for-the-badge&color=000000&labelColor=D98324">
 </p>
@@ -85,33 +72,15 @@ public:
 
   <h3>💻 GitHub Profile Stats</h3>
 <p>
-    <img alt="Obaid's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=highcontrast&hide_border=true&card_width=400&hide=prs&title_color=FFD700"/>
+    <img alt="Obaid's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=highcontrast&hide_border=true&card_width=400&hide=prs&title_color=FFD700&icon_color=FFD700&text_color=FFFFFF" />
     <img alt="Obaid's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=highcontrast&hide_border=true&langs_count=8&card_width=400&title_color=FFD700"/>
 </p>
-
   <h3>⏳ Time Allocation</h3>
   <p>
       <img align="center" width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=@Obaid03&theme=highcontrast&card_width=805&title_color=FFD700&bg_color=000000&layout=default&hide_border=true&text_color=FFFFFF" />
 </p>
 
-
 ### 📊 GitHub Activity Breakdown 🐤
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- COMMIT_BREAKDOWN_START -->
 ### 🕒 Commit Activity Breakdown  
 
@@ -124,23 +93,6 @@ public:
 
 _Last updated: 2025-04-13 04:13:46 (PKT)_
 <!-- COMMIT_BREAKDOWN_END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </details>
 
 <details>
