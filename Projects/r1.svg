@@ -1,47 +1,40 @@
 <svg width="500" height="160" viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg">
   <style>
     @keyframes slideIn {
-      0% { transform: translateX(-50px); opacity: 0; }
-      100% { transform: translateX(0); opacity: 1; }
+      from { transform: translateX(-50px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
     }
-    
     @keyframes fadeIn {
-      0% { opacity: 0; }
-      100% { opacity: 1; }
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
-    
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    @keyframes glow {
+      from { filter: drop-shadow(0 0 4px #FFD700); }
+      to { filter: drop-shadow(0 0 12px #FFD700); }
+    }
     @keyframes rocketBounce {
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-8px); }
     }
-    
-    @keyframes glow {
-      0% { filter: drop-shadow(0 0 4px #FFD700); text-shadow: 0 0 4px #FFD700; }
-      100% { filter: drop-shadow(0 0 12px #FFD700); text-shadow: 0 0 12px #FFD700; }
-    }
-    
     @keyframes starsTwinkle {
       0%, 100% { opacity: 0.3; }
       50% { opacity: 1; }
     }
-    
-    @keyframes flame {
-      0% { opacity: 0.8; transform: scaleY(1); }
-      50% { opacity: 1; transform: scaleY(1.2); }
-      100% { opacity: 0.8; transform: scaleY(1); }
+    @keyframes fireBullet {
+      0% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(-160px); opacity: 0; } /* Now goes to top */
     }
-    
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-3px); }
-    }
-    
+
     .background {
       fill: #000000;
       rx: 15;
       ry: 15;
     }
-    
+
     .title {
       font-family: 'Arial Rounded MT Bold', 'Segoe UI', sans-serif;
       font-size: 32px;
@@ -51,7 +44,7 @@
       opacity: 0;
       text-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
     }
-    
+
     .subtitle {
       font-family: 'Segoe UI', sans-serif;
       font-size: 18px;
@@ -60,48 +53,76 @@
       animation: glow 2s infinite alternate, fadeIn 1s 0.8s forwards;
       opacity: 0;
     }
-    
+
     .rocket {
       animation: rocketBounce 1.2s infinite ease-in-out, float 3s infinite ease-in-out;
       filter: drop-shadow(0 0 8px #FF4500);
     }
-    
+
     .star {
       fill: white;
       animation: starsTwinkle 2s infinite ease-in-out;
     }
-    
-    .flame {
-      animation: flame 0.5s infinite ease-in-out;
-      transform-origin: center bottom;
+
+    .fire-bullet {
+      fill: #FF4500;
+      animation: fireBullet 1.5s infinite ease-in-out;
+      opacity: 0;
     }
-    
-    .gear {
-      animation: spin 4s infinite linear;
-      transform-origin: center;
-    }
-    
-    @keyframes spin {
-      100% { transform: rotate(360deg); }
-    }
-    
+
     .console-text {
       font-family: 'Consolas', monospace;
       fill: #00FF00;
       animation: terminalTyping 4s steps(40) forwards, blink 0.7s infinite;
       opacity: 0;
     }
-    
+
     @keyframes terminalTyping {
       0% { opacity: 1; width: 0; }
       100% { opacity: 1; width: 100%; }
     }
-    
+
     @keyframes blink {
       50% { opacity: 0.5; }
     }
   </style>
 
+  <!-- Background with stars -->
+  <rect width="500" height="160" rx="15" ry="15" class="background"/>
+  <rect width="500" height="160" rx="15" ry="15" fill="url(#stars)" opacity="0.8"/>
+
+  <!-- Title and Subtitle on the left side -->
+  <text x="15" y="50" class="title">
+    <tspan class="rocket">🚀</tspan> Rocket Shooting Game
+  </text>
+  <text x="230" y="95" class="subtitle" text-anchor="middle">
+    <tspan class="gear">⚙️</tspan> Console-Based | Developed in C
+  </text>
+
+  <!-- Animated terminal-like text -->
+  <text x="250" y="145" class="console-text" text-anchor="middle">>> Click To Open Repo</text>
+
+  <!-- Three columns of bullets (left, center, right) -->
+  
+  <!-- Left column bullets -->
+  <polygon points="460,140 470,130 480,140" class="fire-bullet" style="animation-delay: 0.15s"/>
+  <polygon points="460,130 470,120 480,130" class="fire-bullet" style="animation-delay: 0.35s"/>
+  <polygon points="460,120 470,110 480,120" class="fire-bullet" style="animation-delay: 0.55s"/>
+  <polygon points="460,110 470,100 480,110" class="fire-bullet" style="animation-delay: 0.75s"/>
+  <polygon points="460,100 470,90 480,100" class="fire-bullet" style="animation-delay: 0.95s"/>
+  <polygon points="460,90 470,80 480,90" class="fire-bullet" style="animation-delay: 1.15s"/>
+  <polygon points="460,80 470,70 480,80" class="fire-bullet" style="animation-delay: 1.35s"/>
+
+  <!-- Center column bullets (moved slightly to the right) -->
+  <polygon points="420,140 430,130 440,140" class="fire-bullet" style="animation-delay: 0.2s"/>
+  <polygon points="420,130 430,120 440,130" class="fire-bullet" style="animation-delay: 0.4s"/>
+  <polygon points="420,120 430,110 440,120" class="fire-bullet" style="animation-delay: 0.6s"/>
+  <polygon points="420,110 430,100 440,110" class="fire-bullet" style="animation-delay: 0.8s"/>
+  <polygon points="420,100 430,90 440,100" class="fire-bullet" style="animation-delay: 1.0s"/>
+  <polygon points="420,90 430,80 440,90" class="fire-bullet" style="animation-delay: 1.2s"/>
+  <polygon points="420,80 430,70 440,80" class="fire-bullet" style="animation-delay: 1.4s"/>
+  
+  <!-- Stars -->
   <defs>
     <pattern id="stars" width="500" height="160" patternUnits="userSpaceOnUse">
       <!-- Random stars -->
@@ -121,35 +142,5 @@
       <circle cx="450" cy="30" r="1.2" class="star" style="animation-delay: 1.3s"/>
       <circle cx="480" cy="10" r="0.8" class="star" style="animation-delay: 1.4s"/>
     </pattern>
-    
-    <!-- Rocket flame -->
-    <g id="rocket-flame">
-      <path d="M10,40 L15,60 L5,60 Z" fill="#FF4500" class="flame" style="animation-delay: 0.1s"/>
-      <path d="M15,40 L20,55 L10,55 Z" fill="#FF8C00" class="flame" style="animation-delay: 0.2s"/>
-      <path d="M5,40 L10,55 L0,55 Z" fill="#FF8C00" class="flame" style="animation-delay: 0.3s"/>
-    </g>
   </defs>
-
-  <!-- Black background with stars -->
-  <rect width="500" height="160" rx="15" ry="15" class="background"/>
-  <rect width="500" height="160" rx="15" ry="15" fill="url(#stars)" opacity="0.8"/>
-  
-  <!-- Title with animated rocket -->
-<text x="250" y="60" class="title" text-anchor="middle">
-  <tspan class="rocket">🚀</tspan> Rocket Shooting Game
-</text>
-
-<!-- Subtitle with animated gear -->
-<text x="250" y="100" class="subtitle" text-anchor="middle">
-  <tspan class="gear">⚙️</tspan> Console-Based | Developed in C
-</text>
-
-<!-- Animated terminal-like text -->
-<text x="250" y="130" class="console-text" text-anchor="middle">>> Click To Open Repo</text>
-
-  
-  <!-- Animated border 
-  <rect x="5" y="5" width="490" height="150" rx="12" ry="12" fill="none" stroke="#FFD700" stroke-width="2" stroke-dasharray="10,5" stroke-dashoffset="0">
-    <animate attributeName="stroke-dashoffset" from="0" to="15" dur="3s" repeatCount="indefinite"/>
-  </rect>-->
 </svg>
