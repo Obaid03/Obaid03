@@ -70,7 +70,7 @@ public:
 <details>
   <summary><h2>🚀 Featured Projects</h2></summary>
 
-[![Rocket Shooting Game](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/rocket-game.svg)](https://github.com/Obaid03/PF_RocketGame)
+[![Rocket Shooting Game](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/r1.svg)](https://github.com/Obaid03/PF_RocketGame)
 [![Grocery Store Website](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/website.svg)](https://github.com/Obaid03/Grocery_Store_Website)
 
 </details>
