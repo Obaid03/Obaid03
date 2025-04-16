@@ -135,21 +135,18 @@
   <rect width="500" height="160" rx="15" ry="15" fill="url(#stars)" opacity="0.8"/>
   
   <!-- Title with animated rocket -->
-  <text x="25" y="60" class="title">
-    <tspan class="rocket">🚀</tspan> Rocket Shooting Game
-  </text>
-  
-  <!-- Rocket flame effect positioned right after the heading 
- 
-  <use href="#rocket-flame" x="220" y="40" transform="scale(0.7)"/> -->
-  
-  <!-- Subtitle with animated gear -->
-  <text x="25" y="100" class="subtitle">
-    <tspan class="gear">⚙️</tspan> Console-Based | Developed in C
-  </text>
-  
-  <!-- Animated terminal-like text -->
-  <text x="25" y="130" class="console-text">>> Click To Open Repo</text>
+<text x="250" y="60" class="title" text-anchor="middle">
+  <tspan class="rocket">🚀</tspan> Rocket Shooting Game
+</text>
+
+<!-- Subtitle with animated gear -->
+<text x="250" y="100" class="subtitle" text-anchor="middle">
+  <tspan class="gear">⚙️</tspan> Console-Based | Developed in C
+</text>
+
+<!-- Animated terminal-like text -->
+<text x="250" y="130" class="console-text" text-anchor="middle">>> Click To Open Repo</text>
+
   
   <!-- Animated border -->
   <rect x="5" y="5" width="490" height="150" rx="12" ry="12" fill="none" stroke="#FFD700" stroke-width="2" stroke-dasharray="10,5" stroke-dashoffset="0">
