@@ -117,8 +117,20 @@ public:
 <img align="center" width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&theme=midnight-purple&card_width=805&title_color=FFD700&bg_color=000000&layout=bar&hide_border=true&text_color=FFFFFF" />
 </p>
   
+
 <!-- COMMIT_BREAKDOWN_START -->
+### 🕒 Commit Activity Breakdown  
+
+|  | Time Period | Commits | Progress | Percentage |
+|---|---|---|---|---|
+| ☀️ | Morning   | 121 | `███░░░░░░░░░░░░░░░░░` | 16.51% |
+| 🌆 | Daytime   | 273 | `███████░░░░░░░░░░░░░` | 37.24% |
+| 🌃 | Evening   | 187 | `█████░░░░░░░░░░░░░░░` | 25.51% |
+| 🌙 | Night     | 152 | `████░░░░░░░░░░░░░░░░` | 20.74% |
+
+_Last updated: 2025-04-16 18:25:49 (PKT)_
 <!-- COMMIT_BREAKDOWN_END -->
+
 </details>
 
 
