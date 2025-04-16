@@ -9,7 +9,7 @@
     <img alt="WakaTime" title="WakaTime" src="https://wakatime.com/badge/user/2371372e-1742-4d26-9cf0-6b976484ecfd.svg?&style=for-the-badge&color=00000F"/>
 <p/>
 
-<details open>
+<details open >
   <summary><h2>👨‍🎓 About Me</h2></summary>
 
   ```cpp
@@ -66,184 +66,24 @@ public:
 
 </details>
 
-<details>
-  <summary><h2>📈 Stats</h2></summary>
-
-
-  <h3>💻 GitHub Profile Stats</h3>
-<p>
-    <img alt="Obaid's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Obaid03&show_icons=true&count_private=true&theme=highcontrast&hide_border=true&card_width=400&hide=prs&title_color=FFD700&icon_color=FFD700&text_color=FFFFFF" />
-    <img alt="Obaid's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&theme=highcontrast&hide_border=true&langs_count=8&card_width=400&title_color=FFD700"/>
+<details>  
+  <summary><h2><img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire Emoji" width="30" height="30"> Streaks, Stats & Activity <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire Emoji" width="30" height="30"></h2></summary>
+    <!-- https://github.com/anuraghazra/github-readme-stats // Github Stats-->
+  <img align="center" width="400" src="https://github-readme-stats.vercel.app/api?username=Obaid03&hide_border=true&title_color=FFD700&show_icons=true&icon_color=FFD700&ring_color=FFD700&bg_color=000000&text_color=FFFFFF&rank_icon=percentile" />
+    <!-- https://github.com/DenverCoder1/github-readme-streak-stats // Streaks Stats -->
+    <img align="center" width="400" src="https://github-readme-streak-stats-eight.vercel.app/?user=Obaid03&theme=highcontrast&currStreakNum=FFD700&fire=FFD700&card_height=205&currStreakLabel=FFD700&ring=FFD700&border=000000" />
+    <br/>
+    <!-- https://github.com/Ashutosh00710/github-readme-activity-graph // Graph-Koordinaten 
+<img width="805" src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=high-contrast&hide_border=true&area_color=FFD700&area=true&point=FFD700&line=FFD700&" />-->
+    <!-- https://github.com/anuraghazra/github-readme-stats // Most Used Language-->
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&text_color=FFFFFF&bg_color=000000&card_width=805&hide_border=true&title_color=FFD700" />
+    <br/>
+    <!-- https://github.com/anuraghazra/github-readme-stats // WakaTime Stats-->
+<img align="center" width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&theme=midnight-purple&card_width=805&title_color=FFD700&bg_color=000000&layout=bar&hide_border=true&text_color=FFFFFF" />
 </p>
-  <h3>⏳ Time Allocation</h3>
-  <p>
-      <img align="center" width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=@Obaid03&theme=highcontrast&card_width=805&title_color=FFD700&bg_color=000000&layout=default&hide_border=true&text_color=FFFFFF" />
-</p>
-
-### 📊 GitHub Activity Breakdown 🐤
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 <!-- COMMIT_BREAKDOWN_START -->
-### 🕒 Commit Activity Breakdown  
-
-|  | Time Period | Commits | Progress | Percentage |
-|---|---|---|---|---|
-| ☀️ | Morning   | 121 | `███░░░░░░░░░░░░░░░░░` | 16.74% |
-| 🌆 | Daytime   | 268 | `███████░░░░░░░░░░░░░` | 37.07% |
-| 🌃 | Evening   | 182 | `█████░░░░░░░░░░░░░░░` | 25.17% |
-| 🌙 | Night     | 152 | `████░░░░░░░░░░░░░░░░` | 21.02% |
-
-_Last updated: 2025-04-16 17:31:32 (PKT)_
 <!-- COMMIT_BREAKDOWN_END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </details>
 
@@ -256,7 +96,7 @@ _Last updated: 2025-04-16 17:31:32 (PKT)_
 </details>
 
 
-<details>
+<details open>
   <summary><h2>👨‍💻 Repositories</h2></summary>
   <br>
 
