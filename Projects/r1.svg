@@ -1,0 +1,54 @@
+<svg width="500" height="140" viewBox="0 0 500 140" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 26px;
+      fill: #FFD700;
+      font-weight: bold;
+      animation: slideIn 1.5s ease-out forwards;
+      opacity: 0;
+    }
+    .subtitle {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 18px;
+      fill: #FFD700;
+      font-weight: bold;
+      animation: glow 2s infinite alternate ease-in-out, fadeIn 2s 1.5s forwards;
+      opacity: 0;
+    }
+    .rocket {
+      animation: rocketBounce 1.2s infinite ease-in-out;
+      filter: drop-shadow(0 0 5px #FFD700);
+    }
+
+    @keyframes slideIn {
+      from { transform: translateX(-50px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes rocketBounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+    @keyframes glow {
+      from { filter: drop-shadow(0 0 4px #FFD700); }
+      to { filter: drop-shadow(0 0 12px #FFD700); }
+    }
+  </style>
+
+  <rect width="500" height="140" rx="15" ry="15" fill="#000000" />
+
+  <text x="25" y="50" class="title">
+    <tspan class="rocket">🚀</tspan> Rocket Shooting Game
+  </text>
+
+  <text x="25" y="90" class="subtitle">
+      ⚙️ Console-Based | Developed in C
+  </text>
+</svg>
