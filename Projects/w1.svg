@@ -1,0 +1,92 @@
+<svg width="500" height="140" viewBox="0 0 500 140" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes slideIn {
+      from { transform: translateX(-50px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    @keyframes glow {
+      from { filter: drop-shadow(0 0 4px #FFD700); }
+      to { filter: drop-shadow(0 0 12px #FFD700); }
+    }
+    @keyframes cartBounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    .title {
+      font-family: 'Arial Rounded MT Bold', sans-serif;
+      font-size: 28px;
+      fill: #FFD700;
+      font-weight: bold;
+      animation: slideIn 1s ease-out forwards, glow 2s infinite alternate;
+      opacity: 0;
+    }
+    .subtitle {
+      font-family: 'Arial', sans-serif;
+      font-size: 18px;
+      fill: #FFD700;
+      font-weight: bold;
+      animation: fadeIn 1.5s 0.5s forwards;
+      opacity: 0;
+    }
+    .cart {
+      animation: cartBounce 1.5s infinite ease-in-out;
+    }
+    .web {
+      animation: float 3s infinite ease-in-out;
+    }
+    .food-icon {
+      animation: pulse 2s infinite ease-in-out;
+    }
+  </style>
+
+  <!-- Background with subtle pattern -->
+  <rect width="500" height="140" fill="#000000" rx="10" ry="10"/>
+  <rect width="500" height="140" fill="url(#foodPattern)" opacity="0.1" rx="10" ry="10"/>
+  
+  <defs>
+    <!-- Food items pattern -->
+    <pattern id="foodPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="3" fill="#FFD700" opacity="0.3"/>
+      <rect x="25" y="25" width="6" height="6" fill="#FFD700" opacity="0.3" rx="1"/>
+      <path d="M20,10 L25,15 L20,20 L15,15 Z" fill="#FFD700" opacity="0.3"/>
+    </pattern>
+    
+    <!-- Shopping cart with groceries -->
+    <g id="grocery-cart">
+      <path d="M10,20 L30,20 L35,40 L5,40 Z" fill="#FFD700" opacity="0.8"/>
+      <circle cx="12" cy="45" r="5" fill="#8B4513"/>
+      <circle cx="28" cy="45" r="5" fill="#8B4513"/>
+      <circle cx="20" cy="30" r="4" fill="#FF6347"/>
+      <circle cx="25" cy="25" r="3" fill="#32CD32"/>
+      <rect x="15" cy="28" width="3" height="4" fill="#FFFFFF" transform="rotate(15 15 28)"/>
+    </g>
+  </defs>
+
+  <!-- Title with animated shopping cart -->
+  <text x="25" y="50" class="title">
+    <tspan class="cart">🛒</tspan> Grocery Store Website
+  </text>
+  
+  <!-- Subtitle with web icon -->
+  <text x="25" y="90" class="subtitle">
+    <tspan class="web">🌐</tspan> Web-Based | Built with HTML &amp; CSS
+  </text>
+  
+  <!-- Animated food icons -->
+  <use href="#grocery-cart" x="380" y="30" transform="scale(1.2)" class="food-icon"/>
+
+</svg>
