@@ -1,0 +1,99 @@
+<svg width="500" height="140" viewBox="0 0 500 140" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font-family: 'Arial Rounded MT Bold', sans-serif;
+      font-size: 28px;
+      fill: #FFD700;
+      font-weight: bold;
+      animation: slideIn 1s ease-out forwards;
+      opacity: 0;
+    }
+
+    .subtitle {
+      font-family: 'Arial', sans-serif;
+      font-size: 18px;
+      fill: #FFD700;
+      font-weight: bold;
+      animation: fadeIn 1.5s 0.5s forwards;
+      opacity: 0;
+    }
+
+    .console-text {
+      font-family: 'Consolas', monospace;
+      fill: #00FF00;
+      animation: terminalTyping 4s steps(40) forwards, blink 0.7s infinite;
+      opacity: 0;
+    }
+
+    .pulse-dot {
+      animation: pulse 3s ease-in-out infinite;
+      opacity: 0.1;
+    }
+
+    .diagonal-line {
+      stroke: #FFD700;
+      stroke-width: 0.4;
+      opacity: 0.05;
+      animation: floatLine 6s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { r: 2; opacity: 0.1; }
+      50% { r: 4; opacity: 0.25; }
+    }
+
+    @keyframes floatLine {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+
+    @keyframes slideIn {
+      from { transform: translateX(-50px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes terminalTyping {
+      0% { opacity: 1; width: 0; }
+      100% { opacity: 1; width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { opacity: 0.5; }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="500" height="140" fill="#000000" rx="10" ry="10"/>
+
+  <!-- Animated circular pulses (more added) -->
+  <circle cx="50" cy="40" r="2" fill="#FFD700" class="pulse-dot"/>
+  <circle cx="150" cy="100" r="2" fill="#FFD700" class="pulse-dot"/>
+  <circle cx="320" cy="60" r="2" fill="#FFD700" class="pulse-dot"/>
+  <circle cx="400" cy="30" r="2" fill="#FFD700" class="pulse-dot"/>
+  <circle cx="470" cy="110" r="2" fill="#FFD700" class="pulse-dot"/>
+  <circle cx="90" cy="120" r="2" fill="#FFD700" class="pulse-dot"/>
+
+
+  <!-- Subtle basket-like diagonal lines -->
+  <line x1="0" y1="20" x2="500" y2="140" class="diagonal-line"/>
+  <line x1="0" y1="40" x2="500" y2="160" class="diagonal-line"/>
+  <line x1="0" y1="60" x2="500" y2="180" class="diagonal-line"/>
+
+  <!-- Title -->
+  <text x="45" y="35" class="title">
+    <tspan>🛒</tspan> Grocery Store Website
+  </text>
+
+  <!-- Subtitle -->
+  <text x="55" y="85" class="subtitle">
+    <tspan>🌐</tspan> Web-Based | Built with HTML &amp; CSS
+  </text>
+
+  <!-- Terminal Text -->
+  <text x="230" y="130" class="console-text" text-anchor="middle">>> Click To Open Repo</text>
+</svg>
