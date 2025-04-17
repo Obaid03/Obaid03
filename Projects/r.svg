@@ -1,0 +1,101 @@
+<svg width="500" height="160" viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes slideIn {
+      from { transform: translateX(-50px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    
+    @keyframes rocketBounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes starsTwinkle {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    @keyframes fireBullet {
+      0% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(-160px); opacity: 0; } /* Now goes to top */
+    }
+
+    .background {
+      fill: #000000;
+      rx: 15;
+      ry: 15;
+    }
+
+    .title {
+      font-family: 'Arial Rounded MT Bold', 'Segoe UI', sans-serif;
+      font-size: 32px;
+      fill: #FFD700;
+      font-weight: bold;
+      animation: slideIn 1s ease-out forwards, glow 2s infinite alternate;
+      opacity: 0;
+      text-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
+    }
+
+    .subtitle {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 18px;
+      fill: #FFD700;
+      font-weight: bold;
+      animation: glow 2s infinite alternate, fadeIn 1s 0.8s forwards;
+      opacity: 0;
+    }
+
+    .rocket {
+      animation: rocketBounce 1.2s infinite ease-in-out, float 3s infinite ease-in-out;
+      filter: drop-shadow(0 0 8px #FF4500);
+    }
+
+    .star {
+      fill: white;
+      animation: starsTwinkle 2s infinite ease-in-out;
+    }
+
+    .fire-bullet {
+      fill: #FF4500;
+      animation: fireBullet 1.5s infinite ease-in-out;
+      opacity: 0;
+    }
+
+    .console-text {
+      font-family: 'Consolas', monospace;
+      fill: #00FF00;
+      animation: terminalTyping 4s steps(40) forwards, blink 0.7s infinite;
+      opacity: 0;
+    }
+
+    @keyframes terminalTyping {
+      0% { opacity: 1; width: 0; }
+      100% { opacity: 1; width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { opacity: 0.5; }
+    }
+  </style>
+
+  <!-- Background with stars -->
+  <rect width="500" height="160" rx="15" ry="15" class="background"/>
+  <rect width="500" height="160" rx="15" ry="15" fill="url(#stars)" opacity="0.8"/>
+
+  <!-- Title and Subtitle on the left side -->
+  <text x="25" y="50" class="title">
+    <tspan class="rocket">🚀</tspan> Rocket Shooting Game
+  </text>
+  <text x="230" y="100" class="subtitle" text-anchor="middle">
+    <tspan class="gear">⚙️</tspan> Console-Based | Developed in C
+  </text>
+
+  <!-- Animated terminal-like text -->
+  <text x="240" y="145" class="console-text" text-anchor="middle">>> Click To Open Repo</text>
+</svg>
