@@ -107,10 +107,10 @@
   </g>
 
   <!-- Title and Subtitle -->
-  <text x="15" y="50" class="title">
+  <text x="35" y="50" class="title">
     <tspan class="rocket">🚀</tspan> Rocket Shooting Game
   </text>
-  <text x="250" y="90" class="subtitle" text-anchor="middle">
+  <text x="250" y="100" class="subtitle" text-anchor="middle">
     ⚙️ Console-Based | Developed in C
   </text>
 
