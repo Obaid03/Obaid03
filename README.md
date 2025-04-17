@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/Banner.svg" alt="HI, I'M OBAID">
+  <img src="https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/B1.svg" alt="HI, I'M OBAID">
 </p>
 <p align="center">
     <img alt="WakaTime" title="WakaTime" src="https://wakatime.com/badge/user/2371372e-1742-4d26-9cf0-6b976484ecfd.svg?&style=for-the-badge&color=00000F"/>
@@ -70,8 +70,8 @@ public:
 <details>
   <summary><h2>🚀 Featured Projects</h2></summary>
 
-[![Rocket Shooting Game](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/r1.svg)](https://github.com/Obaid03/PF_RocketGame)
-[![Grocery Store Website](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/w1.svg)](https://github.com/Obaid03/Grocery_Store_Website)
+[![Rocket Shooting Game](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/r.svg)](https://github.com/Obaid03/PF_RocketGame)
+[![Grocery Store Website](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/w.svg)](https://github.com/Obaid03/Grocery_Store_Website)
 
 </details>
 
