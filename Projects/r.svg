@@ -1,33 +1,7 @@
 <svg width="500" height="160" viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg">
   <style>
-    @keyframes slideIn {
-      from { transform: translateX(-50px); opacity: 0; }
-      to { transform: translateX(0); opacity: 1; }
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-5px); }
-    }
-    
-    @keyframes rocketBounce {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-8px); }
-    }
-    @keyframes starsTwinkle {
-      0%, 100% { opacity: 0.3; }
-      50% { opacity: 1; }
-    }
-    @keyframes fireBullet {
-      0% { transform: translateY(0); opacity: 1; }
-      100% { transform: translateY(-160px); opacity: 0; } /* Now goes to top */
-    }
-
     .background {
-      fill: #000000;
+      fill: #000;
       rx: 15;
       ry: 15;
     }
@@ -37,9 +11,8 @@
       font-size: 32px;
       fill: #FFD700;
       font-weight: bold;
-      animation: slideIn 1s ease-out forwards, glow 2s infinite alternate;
+      animation: slideIn 1s ease-out forwards;
       opacity: 0;
-      text-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
     }
 
     .subtitle {
@@ -47,7 +20,14 @@
       font-size: 18px;
       fill: #FFD700;
       font-weight: bold;
-      animation: glow 2s infinite alternate, fadeIn 1s 0.8s forwards;
+      animation: fadeIn 1s 1s forwards;
+      opacity: 0;
+    }
+
+    .console-text {
+      font-family: 'Consolas', monospace;
+      fill: #00FF00;
+      animation: terminalTyping 3s steps(40) forwards, blink 0.8s infinite;
       opacity: 0;
     }
 
@@ -58,20 +38,18 @@
 
     .star {
       fill: white;
-      animation: starsTwinkle 2s infinite ease-in-out;
+      opacity: 0.4;
+      animation: twinkle 3s infinite ease-in-out alternate;
     }
 
-    .fire-bullet {
-      fill: #FF4500;
-      animation: fireBullet 1.5s infinite ease-in-out;
-      opacity: 0;
+    @keyframes slideIn {
+      from { transform: translateX(-50px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
     }
 
-    .console-text {
-      font-family: 'Consolas', monospace;
-      fill: #00FF00;
-      animation: terminalTyping 4s steps(40) forwards, blink 0.7s infinite;
-      opacity: 0;
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
 
     @keyframes terminalTyping {
@@ -82,20 +60,60 @@
     @keyframes blink {
       50% { opacity: 0.5; }
     }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+    @keyframes rocketBounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    @keyframes twinkle {
+      0% { opacity: 0.2; transform: scale(0.9); }
+      100% { opacity: 1; transform: scale(1.3); }
+    }
   </style>
 
-  <!-- Background with stars -->
-  <rect width="500" height="160" rx="15" ry="15" class="background"/>
-  <rect width="500" height="160" rx="15" ry="15" fill="url(#stars)" opacity="0.8"/>
+  <!-- Background -->
+  <rect width="500" height="160" class="background" rx="15" ry="15"/>
 
-  <!-- Title and Subtitle on the left side -->
-  <text x="25" y="50" class="title">
+  <!-- Stars outside text zones -->
+  <g>
+    <!-- Top left -->
+    <circle class="star" cx="20" cy="20" r="1"/>
+    <circle class="star" cx="50" cy="10" r="1.2"/>
+    <circle class="star" cx="90" cy="20" r="0.9"/>
+    <!-- Around edges -->
+    <circle class="star" cx="480" cy="10" r="1.1"/>
+    <circle class="star" cx="470" cy="60" r="0.8"/>
+    <circle class="star" cx="450" cy="130" r="1"/>
+    <circle class="star" cx="470" cy="140" r="1.1"/>
+    <circle class="star" cx="20" cy="140" r="1.2"/>
+    <circle class="star" cx="60" cy="150" r="1"/>
+    <circle class="star" cx="130" cy="130" r="1.3"/>
+    <circle class="star" cx="400" cy="145" r="0.9"/>
+    <circle class="star" cx="300" cy="135" r="1"/>
+    <circle class="star" cx="200" cy="130" r="1.2"/>
+    <!-- Edges + diagonal scatter -->
+    <circle class="star" cx="320" cy="20" r="1"/>
+    <circle class="star" cx="370" cy="30" r="1.1"/>
+    <circle class="star" cx="430" cy="40" r="1.2"/>
+    <circle class="star" cx="280" cy="110" r="1"/>
+    <circle class="star" cx="120" cy="120" r="1.1"/>
+    <circle class="star" cx="250" cy="15" r="0.9"/>
+  </g>
+
+  <!-- Title and Subtitle -->
+  <text x="15" y="50" class="title">
     <tspan class="rocket">🚀</tspan> Rocket Shooting Game
   </text>
-  <text x="230" y="100" class="subtitle" text-anchor="middle">
-    <tspan class="gear">⚙️</tspan> Console-Based | Developed in C
+  <text x="250" y="90" class="subtitle" text-anchor="middle">
+    ⚙️ Console-Based | Developed in C
   </text>
 
-  <!-- Animated terminal-like text -->
-  <text x="240" y="145" class="console-text" text-anchor="middle">>> Click To Open Repo</text>
+  <!-- Console Message -->
+  <text x="250" y="145" class="console-text" text-anchor="middle">>> Click To Open Repo</text>
 </svg>
