@@ -116,18 +116,20 @@ public:
     <!-- https://github.com/anuraghazra/github-readme-stats // WakaTime Stats-->
 <img align="center" width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&theme=midnight-purple&card_width=805&title_color=FFD700&bg_color=000000&layout=bar&hide_border=true&text_color=FFFFFF" />
 </p>
+
 <!-- COMMIT_BREAKDOWN_START -->
 ### 🕒 Commit Activity Breakdown  
 
 |  | Time Period | Commits | Progress | Percentage |
 |---|---|---|---|---|
-| ☀️ | Morning   | 148 | `███░░░░░░░░░░░░░░░░░` | 17.15% |
-| 🌆 | Daytime   | 303 | `███████░░░░░░░░░░░░░` | 35.11% |
-| 🌃 | Evening   | 233 | `█████░░░░░░░░░░░░░░░` | 27.00% |
-| 🌙 | Night     | 179 | `████░░░░░░░░░░░░░░░░` | 20.74% |
+| ☀️ | Morning   | 148 | `███░░░░░░░░░░░░░░░░░` | 17.11% |
+| 🌆 | Daytime   | 303 | `███████░░░░░░░░░░░░░` | 35.03% |
+| 🌃 | Evening   | 233 | `█████░░░░░░░░░░░░░░░` | 26.94% |
+| 🌙 | Night     | 181 | `████░░░░░░░░░░░░░░░░` | 20.92% |
 
-_Last updated: 2025-04-22 00:13:23 (PKT)_
+_Last updated: 2025-04-22 01:16:58 (PKT)_
 <!-- COMMIT_BREAKDOWN_END -->
+
 </details>
 
 <p align="center">
