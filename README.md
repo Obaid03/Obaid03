@@ -104,9 +104,9 @@ public:
 <details open>  
   <summary><h2><img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire Emoji" width="30" height="30"> Streaks, Stats & Activity <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire Emoji" width="30" height="30"></h2></summary>
     <!-- https://github.com/anuraghazra/github-readme-stats // Github Stats-->
-  <img align="center" width="400" src="https://github-readme-stats.vercel.app/api?username=Obaid03&hide_border=true&title_color=FFD700&show_icons=true&icon_color=FFD700&ring_color=FFD700&bg_color=000000&text_color=FFFFFF&rank_icon=percentile" />
+  <img align="center" width="400" src="https://github-readme-stats.vercel.app/api?username=Obaid03&hide_border=true&title_color=FFD700&show_icons=true&icon_color=FFD700&ring_color=FFD700&bg_color=000000&text_color=FFFFFF&rank_icon=percentile&cache_seconds=30" />
     <!-- https://github.com/DenverCoder1/github-readme-streak-stats // Streaks Stats -->
-    <img align="center" width="400" src="https://github-readme-streak-stats-eight.vercel.app/?user=Obaid03&theme=highcontrast&currStreakNum=FFD700&fire=FFD700&card_height=205&currStreakLabel=FFD700&ring=FFD700&border=000000" />
+    <img align="center" width="400" src="https://github-readme-streak-stats-eight.vercel.app/?user=Obaid03&theme=highcontrast&currStreakNum=FFD700&fire=FFD700&card_height=205&currStreakLabel=FFD700&ring=FFD700&border=000000&cache_seconds=30" />
     <br/>
     <!-- https://github.com/Ashutosh00710/github-readme-activity-graph // Graph-Koordinaten 
 <img width="805" src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=high-contrast&hide_border=true&area_color=FFD700&area=true&point=FFD700&line=FFD700&" />-->
@@ -116,28 +116,6 @@ public:
     <!-- https://github.com/anuraghazra/github-readme-stats // WakaTime Stats-->
 <img align="center" width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&theme=midnight-purple&card_width=805&title_color=FFD700&bg_color=000000&layout=bar&hide_border=true&text_color=FFFFFF" />
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- COMMIT_BREAKDOWN_START -->
 ### 🕒 Commit Activity Breakdown  
 
@@ -150,31 +128,7 @@ public:
 
 _Last updated: 2025-04-22 00:13:23 (PKT)_
 <!-- COMMIT_BREAKDOWN_END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </details>
-
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=FFD700&size=24&center=true&vCenter=true&width=500&lines=Thanks+for+Visiting!+🤝" alt="Thanks for Visiting">
