@@ -2,34 +2,24 @@
   <img src="https://komarev.com/ghpvc/?username=Obaid03&label=👀%20Visitors%20%20%20%20&style=for-the-badge&color=000000&labelColor=D98324">
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/B1.svg" alt="HI, I'M OBAID">
-</p>
+<!--<p align="center">
+  <img src="https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/banner.svg" alt="HI, I'M OBAID">
+</p>-->
+<h1 align="center">Hi, I'm  Obaid <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></h1>
 <p align="center">
     <img alt="WakaTime" title="WakaTime" src="https://wakatime.com/badge/user/2371372e-1742-4d26-9cf0-6b976484ecfd.svg?&style=for-the-badge&color=00000F&cache_seconds=30"/>
 <p/>
 
 <details open >
   <summary><h2>👨‍🎓 About Me</h2></summary>
+  
 
-  ```cpp
-class OBAID {
-public:
-    // Personal Information
-    const char* pronouns = "He/Him";
-    const char* education = "BS Computer Science Student – FAST NUCES Karachi";
-    const char* passion = "Passionate about software development and problem-solving | Tech Enthusiast";
-    
-    // Learning & Skills
-    const char* languages[3] = {"C", "C++", "Python"};
-    
-    // Tech Stack & Tools
-    const char* tools[4] = {"Git", "GitHub", "VS Code", "Windows"};
-    
-    // Current Focus
-    const char* currentFocus = "Learning Object-Oriented Programming (OOP)";
-};
-```
+    🟡🎓 BS Computer Science Student – FAST NUCES Karachi
+ 
+    🟡💻 Tech Enthusiast | Passionate About Software Development & Problem-Solving
+  
+    🟡🚀 Currently Learning: Object-Oriented Programming (OOP)
+
 
   ### 📬 Connect with Me:
   <p align="left">
@@ -41,9 +31,6 @@ public:
     </a>
     <a href="https://discord.com/users/1275831607550410886" target="_blank">
       <img src="https://skillicons.dev/icons?i=discord" width="50" alt="Discord" />
-    </a>
-    <a href="https://github.com/Obaid03" target="_blank">
-      <img src="https://skillicons.dev/icons?i=github" width="50" alt="GitHub" />
     </a>
   </p>
 
@@ -70,8 +57,8 @@ public:
 <details>
   <summary><h2>🚀 Featured Projects</h2></summary>
 
-[![Rocket Shooting Game](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/r.svg)](https://github.com/Obaid03/PF_RocketGame)
-[![Grocery Store Website](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/w.svg)](https://github.com/Obaid03/Grocery_Store_Website)
+[![Rocket Shooting Game](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/rocket-game.svg)](https://github.com/Obaid03/PF_RocketGame)
+[![Grocery Store Website](https://raw.githubusercontent.com/Obaid03/Obaid03/main/Projects/website.svg)](https://github.com/Obaid03/Grocery_Store_Website)
 
 </details>
 
@@ -106,7 +93,7 @@ public:
     <!-- https://github.com/anuraghazra/github-readme-stats // Github Stats-->
   <img align="center" width="400" src="https://github-readme-stats.vercel.app/api?username=Obaid03&hide_border=true&title_color=FFD700&show_icons=true&icon_color=FFD700&ring_color=FFD700&bg_color=000000&text_color=FFFFFF&rank_icon=percentile&cache_seconds=30" />
     <!-- https://github.com/DenverCoder1/github-readme-streak-stats // Streaks Stats -->
-    <img align="center" width="400" src="https://github-readme-streak-stats-eight.vercel.app/?user=Obaid03&theme=highcontrast&currStreakNum=FFD700&fire=FFD700&card_height=205&currStreakLabel=FFD700&ring=FFD700&border=000000&cache_seconds=30" />
+    <img align="center" width="400" src="https://github-readme-streak-stats-eight.vercel.app/?user=Obaid03&theme=highcontrast&currStreakNum=FFD700&fire=FFD700&card_height=205&currStreakLabel=FFD700&ring=FFD700&border=000000&cache_seconds=10" />
     <br/>
     <!-- https://github.com/Ashutosh00710/github-readme-activity-graph // Graph-Koordinaten 
 <img width="805" src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=high-contrast&hide_border=true&area_color=FFD700&area=true&point=FFD700&line=FFD700&" />-->
@@ -114,7 +101,7 @@ public:
     <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&text_color=FFFFFF&bg_color=000000&card_width=805&hide_border=true&title_color=FFD700" />
     <br/>
     <!-- https://github.com/anuraghazra/github-readme-stats // WakaTime Stats-->
-<img align="center" width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&theme=midnight-purple&card_width=805&title_color=FFD700&bg_color=000000&layout=bar&hide_border=true&text_color=FFFFFF&cache_seconds=10" />
+<img align="center" width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&theme=midnight-purple&card_width=805&title_color=FFD700&bg_color=000000&layout=bar&hide_border=true&text_color=FFFFFF&cache_seconds=30" />
 </p>
 
 </details>
