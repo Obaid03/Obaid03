@@ -106,17 +106,7 @@
 <img align="center" width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&theme=midnight-purple&card_width=805&title_color=FFD700&bg_color=000000&layout=bar&hide_border=true&text_color=FFFFFF&cache_seconds=30" />
 </p>
 <img width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&layout=compact&hide_border=true&text_color=FFFFFF&bg_color=000000&title_color=FFD700&cache_seconds=60" />-->
-
 </details>
-
 <!--<p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=FFD700&size=24&center=true&vCenter=true&width=500&lines=Thanks+for+Visiting!+🤝" alt="Thanks for Visiting">
 </p>-->
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&text_color=FFFFFF&bg_color=000000&card_width=400&hide_border=true&title_color=FFD700" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&layout=compact&text_color=FFFFFF&bg_color=000000&card_width=400&hide_border=true&title_color=FFD700" />
-</p>
-
-
