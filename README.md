@@ -90,23 +90,18 @@
 
 <details open>  
   <summary><h2><img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire Emoji" width="30" height="30"> Streaks, Stats & Activity <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire Emoji" width="30" height="30"></h2></summary>
-    <!--Github Stats-->
-  <img align="center" width="400" src="https://github-readme-stats.vercel.app/api?username=Obaid03&hide_border=true&title_color=FFD700&show_icons=true&icon_color=FFD700&ring_color=FFD700&bg_color=000000&text_color=FFFFFF&rank_icon=percentile&cache_seconds=10" />
-    <!-- Streaks Stats -->
-    <img align="center" width="400" src="https://github-readme-streak-stats-eight.vercel.app/?user=Obaid03&theme=highcontrast&title_color=FFD700&currStreakNum=FFD700&fire=FFD700&card_height=205&currStreakLabel=FFD700&ring=FFD700&border=000000&cache_seconds=10" />
-    <br/>
-    <!--  Graph-Koordinaten 
-<img width="805" src="https://github-readme-activity-graph.vercel.app/graph?username=Obaid03&theme=high-contrast&hide_border=true&area_color=FFD700&area=true&point=FFD700&line=FFD700&" />-->
-    <!-- Most Used Language
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&text_color=FFFFFF&bg_color=000000&card_width=805&hide_border=true&title_color=FFD700" />-->
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Obaid03&layout=compact&text_color=FFFFFF&bg_color=000000&card_width=400&hide_border=true&title_color=FFD700" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&layout=compact&text_color=FFFFFF&bg_color=000000&card_width=300&hide_border=true&title_color=FFD700" />
-    <br/>
-    <!-- WakaTime Stats
-<img align="center" width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&theme=midnight-purple&card_width=805&title_color=FFD700&bg_color=000000&layout=bar&hide_border=true&text_color=FFFFFF&cache_seconds=30" />
+    <!-- Stats + Streaks + WakaTime Side-by-Side -->
+<p align="center">
+  <!-- Stats -->
+  <img width="400" src="https://github-readme-stats.vercel.app/api?username=Obaid03&hide_border=true&title_color=FFD700&show_icons=true&icon_color=FFD700&ring_color=FFD700&text_color=FFFFFF&bg_color=00000000&rank_icon=percentile" />
+  
+  <!-- Streaks -->
+  <img width="400" src="https://github-readme-streak-stats-eight.vercel.app/?user=Obaid03&hide_border=true&background=00000000&dates=FFFFFF&ring=FFD700&fire=FFD700&currStreakLabel=FFD700&currStreakNum=FFD700&sideNums=FFD700&sideLabels=FFFFFF" />
 </p>
-<img width="805" src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&layout=compact&hide_border=true&text_color=FFFFFF&bg_color=000000&title_color=FFD700&cache_seconds=60" />-->
+
+<!-- WakaTime Centered -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&layout=compact&hide_border=true&title_color=FFD700&text_color=FFFFFF&bg_color=00000000" />
+</p>
+
 </details>
-<!--<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=FFD700&size=24&center=true&vCenter=true&width=500&lines=Thanks+for+Visiting!+🤝" alt="Thanks for Visiting">
-</p>-->
