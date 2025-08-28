@@ -20,17 +20,16 @@
   -  Exploring no-code tools like Bubble.io
 
   ### 📬 Connect with Me:
-  <p align="left">
-    <a href="https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/" target="_blank">
-      <img src="https://skillicons.dev/icons?i=linkedin" width="50" alt="LinkedIn" />
-    </a>
-    <a href="mailto:muhammadobaid103@gmail.com">
-      <img src="https://skillicons.dev/icons?i=gmail" width="50" alt="Gmail" />
-    </a>
-    <a href="https://discord.com/users/1275831607550410886" target="_blank">
-      <img src="https://skillicons.dev/icons?i=discord" width="50" alt="Discord" />
-    </a>
-  </p>
+  ### 📬 Connect with Me:
+<p align="left">
+  <a href="https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@main/icons/LinkedIn.svg" width="48" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:muhammadobaid103@gmail.com">
+    <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@main/icons/Gmail-Dark.svg" width="48" alt="Gmail" />
+  </a>
+</p>
 
 </details>
 
