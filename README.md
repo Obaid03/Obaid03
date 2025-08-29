@@ -20,7 +20,6 @@
   -  Exploring no-code tools like Bubble.io
 
   ### 📬 Connect with Me:
-  ### 📬 Connect with Me:
 <p align="left">
   <a href="https://www.linkedin.com/in/muhammad-obaid-ullah-29b6b0323/" target="_blank">
     <img src="https://cdn.jsdelivr.net/gh/tandpfun/skill-icons@main/icons/LinkedIn.svg" width="48" alt="LinkedIn" />
