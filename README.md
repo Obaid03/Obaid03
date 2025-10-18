@@ -9,6 +9,12 @@
 <p align="center">
     <img alt="WakaTime" title="WakaTime" src="https://wakatime.com/badge/user/2371372e-1742-4d26-9cf0-6b976484ecfd.svg?&style=for-the-badge&color=00000F&cache_seconds=30"/>
 <p/>
+<p align="center">
+  <a href="https://obaid03.github.io/" target="_blank">
+    <img alt="Portfolio" title="Visit my Portfolio" 
+         src="https://img.shields.io/badge/Portfolio-obaid03.github.io-00000F?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 <details open >
   <summary><h2>👨‍🎓 About Me</h2></summary>
