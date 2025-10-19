@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 <!-- 👀 Visitors Counter -->
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=Obaid03&label=👀%20Visitors%20%20%20%20&style=for-the-badge&color=000000&labelColor=D98324">
@@ -13,7 +20,9 @@
 </p>
 
 <!-- 🧠 Info Section -->
-<p align="left">
-  <strong>• CS Student at FAST</strong><br>
-  <strong>• Check out my Portfolio for Projects & Skills → 🌐 <a href="https://obaid03.github.io/" target="_blank"><b>View My Portfolio</b></a> </strong>
-</p>
+<div align="left" style="background: #0f172a; padding: 20px; border-radius: 16px;">
+  <a href="https://obaid03.github.io" target="_blank">
+    <img src="https://obaid03.github.io/favicon.svg" width="100" alt="Portfolio Logo">
+  </a>
+  <h3 style="color: #64ffda;">Visit My Portfolio</h3>
+</div>
