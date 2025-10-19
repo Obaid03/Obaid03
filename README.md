@@ -17,31 +17,3 @@
   <strong>• CS Student at FAST</strong><br>
   <strong>• Check out my Portfolio for Projects & Skills → 🌐 <a href="https://obaid03.github.io/" target="_blank"><b>View My Portfolio</b></a> </strong>
 </p>
-<!-- 📊 GitHub Stats & Activity -->
-<details open>  
-  <summary><h2>📊 GitHub Stats & Activity</h2></summary>
-
-  <div align="center" style="
-       background-color:#000000;
-       border:2px solid #FFD700;
-       border-radius:15px;
-       padding:20px;
-       margin-top:10px;
-       display:inline-block;
-       ">
- <!-- GitHub Stats -->
-    <p>
-      <img width="400" 
-           src="https://github-readme-stats.vercel.app/api?username=Obaid03&hide_border=true&title_color=FFD700&show_icons=true&icon_color=FFD700&ring_color=FFD700&text_color=FFFFFF&bg_color=000000&rank_icon=percentile" />
-      <!-- GitHub Streaks -->
-      <img width="400" 
-           src="https://github-readme-streak-stats-eight.vercel.app/?user=Obaid03&hide_border=true&background=000000&dates=FFFFFF&ring=FFD700&fire=FFD700&currStreakLabel=FFD700&currStreakNum=FFD700&sideNums=FFD700&sideLabels=FFFFFF" />
-    </p>
- <!-- WakaTime Stats -->
-    <p>
-      <img 
-        src="https://github-readme-stats.vercel.app/api/wakatime?username=Obaid03&layout=compact&hide_border=true&title_color=FFD700&text_color=FFFFFF&bg_color=000000" />
-    </p>
-  </div>
-
-</details>
